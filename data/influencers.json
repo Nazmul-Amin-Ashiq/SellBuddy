@@ -18,7 +18,7 @@
             "id": "ugc",
             "name": "UGC Creator Request",
             "subject": "Paid UGC Opportunity",
-            "body": "Hi {name}!\n\nWe're looking for talented content creators like you to createu free products\n- You create 2-3 short videos (TikTok/Reels style)\n- We pay ${payment_amount} per video\n- You keep the products!\n\nYour conte UGC for our brand.\n\nThe deal:\n- We send yont style is exactly what we're looking for. Would you be interested?\n\nBest,\n{sender_name}\nSellBuddy"
+            "body": "Hi {name}!\n\nWe're looking for talented content creators like you to create UGC for our brand.\n\nThe deal:\n- We send you free products\n- You create 2-3 short videos (TikTok/Reels style)\n- We pay ${payment_amount} per video\n- You keep the products!\n\nYour content style is exactly what we're looking for. Would you be interested?\n\nBest,\n{sender_name}\nSellBuddy"
         }
     ],
     "stats": {

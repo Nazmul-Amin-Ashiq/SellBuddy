@@ -1,0 +1,2 @@
+order_id,customer_name,email,product,variant,quantity,address_line1,address_line2,city,state,zip_code,country,supplier,supplier_sku,status
+SB-001,John Doe,john@example.com,Galaxy Star Projector,Blue,1,123 Main St,,New York,NY,10001,US,AliExpress,SKU123456,Pending

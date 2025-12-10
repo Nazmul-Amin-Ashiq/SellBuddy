@@ -115,7 +115,7 @@ dropship-automation/
 ├── store/
 │   ├── index.html
 │   ├── products.js
-│   └── chat_widget.html
+│   └── chat_widget.js
 ├── bots/
 │   ├── product_research_bot.py
 │   ├── supplier_bot.py
