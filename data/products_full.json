@@ -1,0 +1,456 @@
+{
+  "products": [
+    {
+      "id": "galaxy-star-projector-pro",
+      "sku": "GSP-001",
+      "name": "Galaxy Star Projector Pro - Night Light with Bluetooth Speaker",
+      "slug": "galaxy-star-projector-bluetooth",
+      "category": "Smart Home",
+      "subcategory": "Lighting",
+      "tags": ["viral", "tiktok-trending", "gift", "bedroom", "relaxation", "sleep-aid"],
+      "pricing": {
+        "wholesale": 10.50,
+        "retail": 34.99,
+        "compareAt": 59.99,
+        "margin": 70,
+        "profit": 24.49
+      },
+      "supplier": {
+        "name": "AliExpress",
+        "url": "https://aliexpress.com/item/1005003XXX",
+        "shipping": "ePacket 10-15 days",
+        "minOrder": 1
+      },
+      "seo": {
+        "title": "Galaxy Star Projector with Bluetooth Speaker | Night Light for Bedroom",
+        "description": "Transform your room into a stunning galaxy with our LED star projector. Features 16 million colors, Bluetooth speaker, and timer function. Perfect gift for all ages.",
+        "keywords": ["galaxy projector", "star projector", "night light", "LED projector", "bedroom light", "bluetooth speaker light", "aurora projector", "nebula projector"]
+      },
+      "description": {
+        "short": "Transform any room into a mesmerizing galaxy with 16 million colors, built-in Bluetooth speaker, and smart timer. The #1 TikTok viral product of 2025.",
+        "long": "**Transform Your Space Into a Cosmic Wonderland**\n\nIntroducing the Galaxy Star Projector Pro - the viral sensation that's taken TikTok and Instagram by storm with over 50 million views. This isn't just a light; it's an experience that transforms any ordinary room into an extraordinary cosmic escape.\n\n**Why 2 Million+ Customers Love It:**\n\n🌟 **16 Million Stunning Colors** - From deep space purples to aurora greens, customize your perfect ambiance with our advanced LED technology. The colors blend seamlessly, creating authentic nebula and galaxy effects that look like real space photography.\n\n🔊 **Built-in Bluetooth Speaker** - Why choose between ambiance and music? Connect your phone wirelessly and let your favorite playlists accompany the light show. Perfect for meditation, sleep sounds, or party music.\n\n⏰ **Smart Timer Function** - Set it and forget it. Choose 1, 2, or 4-hour auto-shutoff so you can drift off to sleep under the stars without worrying about energy waste.\n\n📱 **Remote + App Control** - Adjust brightness, colors, rotation speed, and music all from your phone or the included remote. No need to get out of bed!\n\n**Perfect For:**\n- Bedroom relaxation and better sleep\n- Kids' nightlight (they LOVE it!)\n- Romantic date nights at home\n- Meditation and yoga sessions\n- TikTok and Instagram content creation\n- Gaming room ambiance\n- Party and event decoration\n\n**Technical Specifications:**\n- Projection Area: Up to 1000 sq ft\n- LED Lifespan: 50,000+ hours\n- Power: USB-C (cable included) or 4xAA batteries\n- Bluetooth: 5.0 with 33ft range\n- Dimensions: 5.5\" x 5.5\" x 6.2\"\n- Weight: 0.8 lbs\n\n**What's In The Box:**\n- 1x Galaxy Star Projector Pro\n- 1x USB-C Charging Cable\n- 1x Remote Control\n- 1x User Manual\n- 1x Gift Box Packaging\n\n**Our Guarantee:**\nWe're so confident you'll love your Galaxy Projector that we offer a 30-day money-back guarantee. If you're not absolutely amazed, return it for a full refund - no questions asked.\n\n⚡ **Limited Time: Free Shipping on orders over $50!**\n\n*Ships within 24 hours. Delivery in 10-15 business days.*",
+        "features": [
+          "16 million color LED with nebula & star effects",
+          "Built-in Bluetooth 5.0 speaker",
+          "Smart timer (1/2/4 hours auto-off)",
+          "Remote control + smartphone app",
+          "USB-C powered or battery operation",
+          "Covers up to 1000 sq ft",
+          "50,000+ hour LED lifespan",
+          "360° adjustable projection angle"
+        ],
+        "benefits": [
+          "Fall asleep faster with calming visuals",
+          "Create Instagram-worthy content",
+          "Perfect gift for any age",
+          "Energy efficient LED technology",
+          "No installation required - plug and play"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How big of a room can this cover?",
+          "answer": "The Galaxy Star Projector Pro can effectively cover rooms up to 1000 square feet. For best results, we recommend placing it 6-10 feet from the ceiling in a darkened room."
+        },
+        {
+          "question": "Is this safe for children?",
+          "answer": "Absolutely! The projector uses cool LED technology that doesn't get hot, making it completely safe for kids' bedrooms. Many parents use it as a nightlight alternative."
+        },
+        {
+          "question": "How long do the LEDs last?",
+          "answer": "Our premium LEDs are rated for 50,000+ hours of use. That's over 5 years of continuous operation!"
+        },
+        {
+          "question": "Can I use it without the speaker?",
+          "answer": "Yes! The light projection and speaker functions work independently. You can use just the lights, just the speaker, or both together."
+        },
+        {
+          "question": "What's the shipping time?",
+          "answer": "We ship within 24 hours of your order. Standard delivery takes 10-15 business days. Express shipping (5-7 days) is available at checkout."
+        }
+      ],
+      "images": {
+        "main": "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=800&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=800&q=80",
+          "https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?w=800&q=80",
+          "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=800&q=80",
+          "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800&q=80"
+        ],
+        "alt": "Galaxy Star Projector lighting up bedroom with purple nebula effect"
+      },
+      "variants": [
+        {"name": "Black", "sku": "GSP-001-BLK", "stock": 500, "image": null},
+        {"name": "White", "sku": "GSP-001-WHT", "stock": 350, "image": null},
+        {"name": "Rose Gold", "sku": "GSP-001-RSG", "stock": 200, "image": null}
+      ],
+      "inventory": {
+        "stock": 1050,
+        "lowStockThreshold": 50,
+        "allowBackorder": true
+      },
+      "shipping": {
+        "weight": 0.8,
+        "dimensions": {"length": 6, "width": 6, "height": 7},
+        "freeShippingThreshold": 50,
+        "estimatedDays": {"min": 10, "max": 15}
+      },
+      "reviews": {
+        "average": 4.8,
+        "count": 2847,
+        "featured": [
+          {"rating": 5, "title": "My kids are OBSESSED", "body": "Best purchase ever! My kids fall asleep so much easier now.", "author": "Sarah M.", "verified": true},
+          {"rating": 5, "title": "TikTok made me buy it", "body": "Saw this everywhere on TikTok. Lives up to the hype!", "author": "Jake T.", "verified": true}
+        ]
+      },
+      "status": "active",
+      "createdAt": "2025-12-10",
+      "trending": true,
+      "viralScore": 95
+    },
+    {
+      "id": "posture-corrector-pro",
+      "sku": "PCP-001",
+      "name": "Posture Corrector Pro - Adjustable Back Support Brace",
+      "slug": "posture-corrector-back-support",
+      "category": "Health & Wellness",
+      "subcategory": "Back Support",
+      "tags": ["health", "office", "remote-work", "pain-relief", "posture", "bestseller"],
+      "pricing": {
+        "wholesale": 5.50,
+        "retail": 24.99,
+        "compareAt": 44.99,
+        "margin": 78,
+        "profit": 19.49
+      },
+      "supplier": {
+        "name": "CJ Dropshipping",
+        "url": "https://cjdropshipping.com/product/XXX",
+        "shipping": "CJPacket 8-12 days",
+        "minOrder": 1
+      },
+      "seo": {
+        "title": "Posture Corrector for Men & Women | Back Support Brace | Pain Relief",
+        "description": "Fix your posture and relieve back pain with our adjustable posture corrector. Invisible under clothes, comfortable all-day wear. Doctor recommended.",
+        "keywords": ["posture corrector", "back brace", "posture support", "back pain relief", "shoulder brace", "posture trainer", "spine corrector"]
+      },
+      "description": {
+        "short": "Fix your posture naturally with our doctor-recommended back brace. Invisible under clothes, comfortable for all-day wear. Relief from back and neck pain.",
+        "long": "**Stop Slouching. Start Living Pain-Free.**\n\nMillions of people suffer from poor posture caused by desk jobs, smartphone use, and sedentary lifestyles. The Posture Corrector Pro is your solution to naturally retrain your muscles and eliminate the back, neck, and shoulder pain that comes with bad posture.\n\n**The Problem:**\nStudies show that 80% of adults experience back pain, with poor posture being the #1 cause. Hours hunched over computers and phones create muscle imbalances that lead to chronic pain, headaches, and even breathing problems.\n\n**Our Solution:**\nThe Posture Corrector Pro gently pulls your shoulders back into proper alignment, training your muscles to maintain correct posture naturally. Within 2-3 weeks of regular use, most customers report significantly improved posture even when not wearing the brace.\n\n**Why Our Posture Corrector Is Different:**\n\n✅ **Invisible Under Clothes** - Ultra-slim design disappears under any shirt. Wear it to work, on dates, anywhere - nobody will know.\n\n✅ **Breathable & Comfortable** - Premium mesh fabric with soft padding. No itching, no sweating, no discomfort even after 8+ hours.\n\n✅ **Fully Adjustable** - One size fits chest sizes 28\"-48\". Customizable straps ensure perfect fit for men and women.\n\n✅ **Doctor Recommended** - Designed with input from chiropractors and physical therapists for medically-sound posture correction.\n\n**Benefits You'll Feel:**\n- Reduced back and neck pain within days\n- Improved breathing and energy levels\n- More confident appearance\n- Better focus and productivity\n- Prevention of long-term spinal issues\n\n**How To Use:**\n1. Slip arms through loops like a backpack\n2. Adjust straps until you feel gentle resistance\n3. Wear 30 minutes to start, increase gradually\n4. Within 2-3 weeks, your muscles adapt naturally\n\n**Technical Specifications:**\n- Material: Breathable neoprene + soft cotton padding\n- Size: Adjustable 28\"-48\" chest\n- Weight: 0.3 lbs\n- Care: Hand wash, air dry\n\n**What's Included:**\n- 1x Posture Corrector Pro\n- 1x Adjustment Guide\n- 1x Posture Exercise Card\n- 1x Travel Pouch\n\n**100% Satisfaction Guarantee:**\nTry it risk-free for 30 days. If you don't feel improvement in your posture and pain levels, we'll refund every penny.\n\n*Over 500,000 sold worldwide. Join the posture revolution!*",
+        "features": [
+          "Invisible under any clothing",
+          "Breathable mesh + soft padding",
+          "Adjustable 28\"-48\" chest size",
+          "Unisex design for men & women",
+          "Lightweight at only 0.3 lbs",
+          "Machine washable materials",
+          "Includes posture exercise guide",
+          "Doctor & chiropractor recommended"
+        ],
+        "benefits": [
+          "Relieve back, neck & shoulder pain",
+          "Build muscle memory for correct posture",
+          "Boost confidence with better appearance",
+          "Increase energy and focus",
+          "Prevent long-term spinal damage"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How long should I wear it each day?",
+          "answer": "Start with 30 minutes and gradually increase to 2-4 hours daily. Your muscles need time to adapt. Most people see significant improvement within 2-3 weeks."
+        },
+        {
+          "question": "Will people see it under my shirt?",
+          "answer": "No! Our ultra-slim design is specifically engineered to be invisible under regular clothing. You can wear it to work or social events without anyone noticing."
+        },
+        {
+          "question": "Is it comfortable for all-day wear?",
+          "answer": "Yes, but we recommend building up gradually. The breathable mesh and soft padding make it comfortable, but your muscles need time to adjust to proper alignment."
+        },
+        {
+          "question": "What size should I order?",
+          "answer": "Our one-size design adjusts to fit chest sizes 28\"-48\". The straps allow for precise customization to your body."
+        }
+      ],
+      "images": {
+        "main": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+          "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+          "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80"
+        ],
+        "alt": "Person wearing posture corrector showing improved back alignment"
+      },
+      "variants": [
+        {"name": "Black", "sku": "PCP-001-BLK", "stock": 800, "image": null},
+        {"name": "Beige", "sku": "PCP-001-BGE", "stock": 400, "image": null}
+      ],
+      "inventory": {
+        "stock": 1200,
+        "lowStockThreshold": 100,
+        "allowBackorder": true
+      },
+      "shipping": {
+        "weight": 0.3,
+        "dimensions": {"length": 8, "width": 6, "height": 2},
+        "freeShippingThreshold": 50,
+        "estimatedDays": {"min": 8, "max": 12}
+      },
+      "reviews": {
+        "average": 4.7,
+        "count": 3421,
+        "featured": [
+          {"rating": 5, "title": "My back pain is GONE", "body": "After 2 weeks of wearing this at my desk job, my chronic back pain has disappeared.", "author": "Michael R.", "verified": true},
+          {"rating": 5, "title": "Actually invisible!", "body": "I was skeptical but it really is invisible under my work shirts. Game changer.", "author": "Lisa K.", "verified": true}
+        ]
+      },
+      "status": "active",
+      "createdAt": "2025-12-10",
+      "trending": true,
+      "viralScore": 88
+    },
+    {
+      "id": "led-strip-lights-smart",
+      "sku": "LSL-001",
+      "name": "Smart LED Strip Lights 65ft - RGB Color Changing with App Control",
+      "slug": "smart-led-strip-lights-rgb",
+      "category": "Smart Home",
+      "subcategory": "Lighting",
+      "tags": ["room-decor", "gaming", "tiktok", "rgb", "smart-home", "alexa"],
+      "pricing": {
+        "wholesale": 7.80,
+        "retail": 29.99,
+        "compareAt": 54.99,
+        "margin": 74,
+        "profit": 22.19
+      },
+      "supplier": {
+        "name": "AliExpress",
+        "url": "https://aliexpress.com/item/1005004XXX",
+        "shipping": "ePacket 12-18 days",
+        "minOrder": 1
+      },
+      "seo": {
+        "title": "LED Strip Lights 65ft RGB | Smart App Control | Works with Alexa",
+        "description": "Transform your room with 65ft of color-changing LED strip lights. App control, music sync, works with Alexa & Google Home. Perfect for bedroom, gaming setup.",
+        "keywords": ["LED strip lights", "RGB lights", "room lights", "gaming lights", "smart lights", "alexa lights", "bedroom LED", "color changing lights"]
+      },
+      "description": {
+        "short": "65ft of stunning RGB LED lights with app control, music sync, and Alexa compatibility. Transform any room into an aesthetic paradise.",
+        "long": "**Create Your Dream Room Setup**\n\nWhether you're building the ultimate gaming den, creating a cozy bedroom vibe, or upgrading your entire home's aesthetic, our Smart LED Strip Lights are the #1 choice for room transformation in 2025.\n\n**65 Feet of Endless Possibilities:**\nThat's enough to outline an entire room, wrap around your gaming setup, light up your kitchen cabinets, AND have extra for creative projects. Cut to any length you need - the strips are fully customizable.\n\n**16 Million Colors at Your Fingertips:**\nFrom deep cosmic purples to energizing reds to calming ocean blues - dial in the exact color that matches your mood, your game, or your content. Create custom color scenes and save them for instant recall.\n\n**Sync to Your Music:**\nWatch your room come alive as the lights pulse, flash, and flow with your music. The built-in mic captures the beat and translates it into an immersive light show. Perfect for parties, streaming, or just vibing.\n\n**Smart Home Integration:**\n- \"Alexa, set my lights to party mode\"\n- \"Hey Google, dim the bedroom lights to 50%\"\n- Full Apple HomeKit compatibility\n- Schedule lights to wake you up gradually\n\n**Easy Installation:**\nStrong 3M adhesive backing sticks to any clean surface. No tools, no drilling, no electrician needed. Includes connectors for corners and extensions.\n\n**What Makes Ours Better:**\n✅ Premium Samsung LEDs (not cheap Chinese chips)\n✅ 50,000 hour lifespan\n✅ UL-certified power supply (fire-safe)\n✅ 24-month warranty\n✅ Responsive customer support\n\n**Perfect For:**\n- Bedroom accent lighting\n- Gaming PC/desk setup\n- TV backlight (reduces eye strain)\n- Kitchen under-cabinet lighting\n- Stairs and hallway safety lighting\n- Outdoor patios (waterproof option available)\n- TikTok/YouTube content creation\n\n**Technical Specifications:**\n- Length: 65ft (20m) - 2 rolls of 32.5ft\n- LEDs: 300 per roll (600 total)\n- Colors: 16 million RGB\n- Control: App (iOS/Android), Remote, Voice\n- Power: 12V DC adapter (included)\n- Lifespan: 50,000+ hours\n- Certifications: UL, CE, RoHS\n\n**What's In The Box:**\n- 2x 32.5ft LED Strip Rolls\n- 1x Smart Controller\n- 1x 12V Power Adapter\n- 1x 44-Key Remote Control\n- 4x Corner Connectors\n- 10x Mounting Clips\n- 1x Quick Start Guide\n\n**30-Day Satisfaction Guarantee + 24-Month Warranty**\n\n*Join 1 million+ customers who've transformed their spaces!*",
+        "features": [
+          "65ft total length (2x 32.5ft rolls)",
+          "16 million RGB colors",
+          "Music sync with built-in microphone",
+          "Works with Alexa, Google Home, HomeKit",
+          "Smartphone app control (iOS & Android)",
+          "44-key remote included",
+          "Cuttable every 3 LEDs",
+          "Strong 3M adhesive backing",
+          "50,000+ hour LED lifespan"
+        ],
+        "benefits": [
+          "Transform any room instantly",
+          "Create perfect ambiance for any mood",
+          "Reduce eye strain as TV backlight",
+          "Impress guests with smart home tech",
+          "Content-creator approved aesthetics"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is 65ft enough for my room?",
+          "answer": "65ft covers most bedrooms and gaming setups with extra to spare. Measure your planned installation area - for a typical bedroom, you'll have plenty. For larger rooms, multiple sets can be synced together."
+        },
+        {
+          "question": "Can I cut them to size?",
+          "answer": "Yes! The strips can be cut every 3 LEDs (about 2 inches) at the marked cut lines. This lets you customize to any length needed."
+        },
+        {
+          "question": "Do they work with Alexa/Google Home?",
+          "answer": "Absolutely! Full integration with Alexa, Google Assistant, and Apple HomeKit. Control with voice commands, set schedules, and include in automation routines."
+        },
+        {
+          "question": "Will the adhesive damage my walls?",
+          "answer": "The 3M adhesive is designed for clean removal. For extra protection on painted walls, you can apply painter's tape first, then attach the strips to the tape."
+        },
+        {
+          "question": "Are these waterproof?",
+          "answer": "This model is IP20 (indoor use). We have an IP65 waterproof version available for bathrooms and outdoor use - check our store for options."
+        }
+      ],
+      "images": {
+        "main": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+          "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+          "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=800&q=80",
+          "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=800&q=80"
+        ],
+        "alt": "RGB LED strip lights illuminating gaming setup with purple and blue colors"
+      },
+      "variants": [
+        {"name": "65ft (20m)", "sku": "LSL-001-65", "stock": 600, "price": 29.99},
+        {"name": "32ft (10m)", "sku": "LSL-001-32", "stock": 400, "price": 19.99},
+        {"name": "100ft (30m)", "sku": "LSL-001-100", "stock": 200, "price": 44.99}
+      ],
+      "inventory": {
+        "stock": 1200,
+        "lowStockThreshold": 100,
+        "allowBackorder": true
+      },
+      "shipping": {
+        "weight": 1.2,
+        "dimensions": {"length": 10, "width": 8, "height": 4},
+        "freeShippingThreshold": 50,
+        "estimatedDays": {"min": 12, "max": 18}
+      },
+      "reviews": {
+        "average": 4.6,
+        "count": 5234,
+        "featured": [
+          {"rating": 5, "title": "My gaming setup is COMPLETE", "body": "These lights transformed my entire room. The music sync feature is insane!", "author": "Alex G.", "verified": true},
+          {"rating": 5, "title": "Better than expected", "body": "Super bright, easy to install, and the app works perfectly. Worth every penny.", "author": "Jordan M.", "verified": true}
+        ]
+      },
+      "status": "active",
+      "createdAt": "2025-12-10",
+      "trending": true,
+      "viralScore": 92
+    },
+    {
+      "id": "portable-blender-usb",
+      "sku": "PBU-001",
+      "name": "Portable Blender USB-C Rechargeable - Personal Size Smoothie Maker",
+      "slug": "portable-blender-usb-rechargeable",
+      "category": "Kitchen",
+      "subcategory": "Small Appliances",
+      "tags": ["fitness", "health", "gym", "smoothie", "travel", "protein-shake"],
+      "pricing": {
+        "wholesale": 8.20,
+        "retail": 27.99,
+        "compareAt": 49.99,
+        "margin": 71,
+        "profit": 19.79
+      },
+      "supplier": {
+        "name": "CJ Dropshipping",
+        "url": "https://cjdropshipping.com/product/XXX",
+        "shipping": "CJPacket 10-14 days",
+        "minOrder": 1
+      },
+      "seo": {
+        "title": "Portable Blender USB Rechargeable | Personal Smoothie Maker | Gym Blender",
+        "description": "Make fresh smoothies anywhere with our USB rechargeable portable blender. 6 blades, 20oz capacity, perfect for gym, office, travel. BPA-free.",
+        "keywords": ["portable blender", "personal blender", "smoothie maker", "travel blender", "USB blender", "gym blender", "protein shake blender", "mini blender"]
+      },
+      "description": {
+        "short": "Fresh smoothies anywhere! USB-C rechargeable blender with 6 powerful blades. Perfect for gym, office, or travel. Makes 15+ blends per charge.",
+        "long": "**Fresh Smoothies Anywhere, Anytime**\n\nStop buying overpriced smoothies or settling for protein powder mixed with a spoon. The Portable Blender USB-C lets you blend fresh, delicious smoothies wherever life takes you - the gym, office, car, airplane, camping, or just your kitchen.\n\n**Powerful Performance in Your Palm:**\nDon't let the compact size fool you. Our 6-blade system with 150W motor pulverizes ice, frozen fruit, and tough ingredients in seconds. You get café-quality smoothies without the café price tag.\n\n**Why Fitness Enthusiasts Love It:**\n\n💪 **Perfect for Protein Shakes** - Finally get smooth, lump-free protein shakes. No more chalky, gritty powder at the bottom.\n\n🏃 **Post-Workout Ready** - Bring frozen fruit and protein in the cup, blend at the gym, drink on the way home. Peak nutrition timing.\n\n🍌 **Fresh Ingredients** - Control exactly what goes in your body. No preservatives, no added sugars, just whole foods.\n\n⚡ **USB-C Fast Charging** - 2 hours for full charge, lasts 15-20 blends. Charge from laptop, car, power bank, anywhere.\n\n**Everyday Convenience:**\n- Make smoothies at your desk\n- Blend baby food on-the-go\n- Fresh margaritas at the beach\n- Healthy meals while traveling\n- Camping and outdoor adventures\n\n**Safety First Design:**\n- Magnetic safety switch (won't blend unless properly assembled)\n- BPA-free Tritan plastic\n- Automatic shutoff if jammed\n- Splash-proof seal\n\n**What Sets Us Apart:**\n✅ USB-C (not outdated micro-USB)\n✅ 6 blades (most competitors have 4)\n✅ 20oz capacity (bigger than most)\n✅ Self-cleaning mode (add water + soap, blend)\n✅ Dishwasher safe cup\n\n**Technical Specifications:**\n- Capacity: 20oz (600ml)\n- Motor: 150W / 22,000 RPM\n- Blades: 6 stainless steel\n- Battery: 4000mAh lithium-ion\n- Charge Time: 2 hours (USB-C)\n- Blends Per Charge: 15-20\n- Weight: 1.2 lbs\n- Material: BPA-free Tritan\n\n**What's Included:**\n- 1x Portable Blender\n- 1x USB-C Charging Cable\n- 1x Cleaning Brush\n- 1x Recipe Booklet\n- 1x Carrying Strap\n\n**30-Day Blend-or-Refund Guarantee:**\nIf this isn't the smoothest blending experience you've ever had, return it for a full refund.\n\n*Over 300,000 sold to fitness enthusiasts worldwide!*",
+        "features": [
+          "USB-C rechargeable (2hr charge)",
+          "6 stainless steel blades",
+          "150W motor / 22,000 RPM",
+          "20oz (600ml) capacity",
+          "15-20 blends per charge",
+          "BPA-free Tritan plastic",
+          "Magnetic safety switch",
+          "Self-cleaning mode",
+          "Dishwasher safe cup"
+        ],
+        "benefits": [
+          "Fresh smoothies anywhere",
+          "Perfect protein shake texture",
+          "Save money vs buying smoothies",
+          "Control your nutrition",
+          "Compact and travel-friendly"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Can it blend ice?",
+          "answer": "Yes! The 6-blade system easily handles ice cubes. For best results, add liquid first, then ice, then other ingredients. Small/medium ice cubes work best."
+        },
+        {
+          "question": "How many smoothies per charge?",
+          "answer": "You'll get 15-20 full blends on a single charge, depending on ingredients. Frozen items use more power than fresh. The LED indicator shows battery level."
+        },
+        {
+          "question": "Is it loud?",
+          "answer": "It's quieter than traditional blenders but not silent. About the volume of a hair dryer. Fine for office use - blend in the break room or kitchen area."
+        },
+        {
+          "question": "How do I clean it?",
+          "answer": "Easy! Add warm water and a drop of dish soap, run the self-cleaning cycle. Or pop the cup in the dishwasher. The blade assembly rinses clean under running water."
+        },
+        {
+          "question": "What can't it blend?",
+          "answer": "Avoid very hard items like coffee beans, whole nuts, or large frozen chunks. It's designed for smoothies, shakes, and soft/frozen fruits - not a food processor replacement."
+        }
+      ],
+      "images": {
+        "main": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=800&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=800&q=80",
+          "https://images.unsplash.com/photo-1502741224143-90386d7f8c82?w=800&q=80",
+          "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=800&q=80"
+        ],
+        "alt": "Portable USB blender with fresh fruit smoothie"
+      },
+      "variants": [
+        {"name": "White", "sku": "PBU-001-WHT", "stock": 450, "image": null},
+        {"name": "Black", "sku": "PBU-001-BLK", "stock": 400, "image": null},
+        {"name": "Pink", "sku": "PBU-001-PNK", "stock": 300, "image": null},
+        {"name": "Blue", "sku": "PBU-001-BLU", "stock": 250, "image": null}
+      ],
+      "inventory": {
+        "stock": 1400,
+        "lowStockThreshold": 100,
+        "allowBackorder": true
+      },
+      "shipping": {
+        "weight": 1.2,
+        "dimensions": {"length": 4, "width": 4, "height": 10},
+        "freeShippingThreshold": 50,
+        "estimatedDays": {"min": 10, "max": 14}
+      },
+      "reviews": {
+        "average": 4.7,
+        "count": 4102,
+        "featured": [
+          {"rating": 5, "title": "Gym game changer", "body": "I bring this to the gym every day. No more clumpy protein shakes!", "author": "Chris P.", "verified": true},
+          {"rating": 5, "title": "Perfect for travel", "body": "Took this on vacation. Made smoothies in the hotel room every morning.", "author": "Amanda S.", "verified": true}
+        ]
+      },
+      "status": "active",
+      "createdAt": "2025-12-10",
+      "trending": true,
+      "viralScore": 85
+    }
+  ],
+  "bundles": [
+    {
+      "id": "sleep-sanctuary-bundle",
+      "name": "Sleep Sanctuary Bundle",
+      "products": ["galaxy-star-projector-pro", "posture-corrector-pro"],
+      "discount": 15,
+      "bundlePrice": 50.98,
+      "savings": 8.99
+    },
+    {
+      "id": "room-transformation-bundle",
+      "name": "Ultimate Room Transformation Bundle",
+      "products": ["galaxy-star-projector-pro", "led-strip-lights-smart"],
+      "discount": 20,
+      "bundlePrice": 51.98,
+      "savings": 12.99
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2025-12-10T00:00:00Z",
+    "totalProducts": 4,
+    "currency": "USD",
+    "version": "2.0"
+  }
+}
