@@ -1,251 +1,296 @@
-# Ecommerce Dropshipping Project - Claude Memory
+# SellBuddy - Autonomous Dropshipping System
 
 ## Project Overview
 **Directory**: `G:\Ecomerce`
-**Type**: Zero-Budget Dropshipping Automation System
+**Repository**: https://github.com/nazmulaminashiq-coder/SellBuddy
+**Live Store**: https://nazmulaminashiq-coder.github.io/SellBuddy/store/
+**Type**: 100% Autonomous Zero-Budget Dropshipping System
 **Target Market**: US/Global English-speaking markets
 **Owner Location**: Bangladesh
-**Starting Budget**: Under $200 (ideally $0 until first revenue)
+**Budget**: $0/month (only ~5% fees per sale)
 
 ---
 
-## Business Strategy
+## Current Status: FULLY AUTONOMOUS
 
-### Target Niches (Ranked by Potential)
-1. **Smart Home & Lifestyle Gadgets** - 28% YoY growth, 40-55% margins
-2. **Health & Personal Wellness** - 41% YoY growth (fastest), 35-50% margins
-3. **Pet Products** - 35% YoY growth, 45-60% margins
-4. **Fashion Accessories & Bags** - 22% YoY growth, 45-65% margins
-5. **Beauty & Skincare Tools** - High TikTok virality, 50-70% margins
-6. **Tech Accessories** - Evergreen demand, 40-60% margins
-7. **Home Office & Productivity** - Remote work trend, 40-55% margins
-
-### Top Recommended Starter Products
-| Product | Wholesale | Retail | Margin | Why |
-|---------|-----------|--------|--------|-----|
-| Galaxy Star Projector | $8-12 | $29-39 | 55% | Proven viral, easy to demo |
-| Electric Back Scrubber | $12-18 | $34-44 | 48% | Holiday trending, gift potential |
-| Custom Photo Projection Necklace | $6-12 | $28-42 | 55% | Valentine's prep, personalization |
-| No-Pull Dog Harness | $5-9 | $24-34 | 58% | Evergreen, easy UGC |
-| LED Strip Lights RGB | $5-8 | $24-32 | 58% | Always trending, bundles well |
+The system runs completely on autopilot:
+- **Daily at 8 AM UTC**: Products updated, content generated, analytics refreshed
+- **On every order**: Auto-processed, saved to Google Sheets, emails sent
+- **On every push**: Store auto-deployed to GitHub Pages
 
 ---
 
 ## Technical Stack (100% Free)
 
-### Store Hosting
-- **GitHub Pages** - Free static hosting
-- **Snipcart** - Free shopping cart (test mode)
-- Alternative: WordPress.com free tier
-
-### Payment Processing
-- **PayPal Business** - Primary (2.9% + $0.30 per transaction)
-- **Payoneer** - Receive payments, transfer to Bangladesh bank
-
-### Automation (GitHub Actions - Free 2,000 min/month)
-- Daily product research at 8 AM UTC
-- Weekly analytics reports
-- Content schedule generation
-
-### Free Tools Stack
-| Function | Tool |
-|----------|------|
-| Email | Zoho Mail (5 users free) |
-| Email Marketing | Mailchimp (500 contacts free) |
-| Live Chat | Tawk.to (unlimited free) |
-| Analytics | Google Analytics |
-| Graphics | Canva |
-| Video Editing | CapCut |
-| Social Scheduling | Buffer (3 channels free) |
-| SEO Research | Ubersuggest (3 searches/day) |
-
----
-
-## Bots & Automation Created
-
-### 1. Product Research Bot (`product_research_bot.py`)
-- Scrapes Google Trends, Reddit, simulates AliExpress/TikTok data
-- Generates daily HTML reports with top products
-- Sends email notifications
-- Runs via GitHub Actions daily
-
-### 2. Supplier Sourcing Bot (`supplier_bot.py`)
-- Tracks supplier prices and margins
-- Calculates profit after all fees
-- Monitors for price drops
-- Generates fulfillment queue CSV
-
-### 3. Social Media Bot (`social_media_bot.py`)
-- Generates TikTok/Instagram captions with hooks
-- Creates Reddit-appropriate posts
-- Produces TikTok video scripts
-- Builds weekly content schedules
-- Analyzes viral potential scores
-
-### 4. Customer Service Chatbot (`customer_service_bot.py`)
-- 24/7 automated FAQ responses
-- Order status lookup
-- Refund request handling
-- Live chat widget (HTML/CSS/JS)
-- Email auto-responder
-
-### 5. Analytics Dashboard (`analytics_dashboard.py`)
-- Revenue, profit, margin tracking
-- Order status breakdown
-- Product performance charts
-- Sales forecasting
-- Exports HTML dashboard for GitHub Pages
-
-### 6. Influencer Outreach Bot (`influencer_bot.py`)
-- Finds micro-influencers on Reddit/TikTok
-- Generates personalized outreach messages
-- Tracks campaign performance
-- Calculates influencer value scores
+| Component | Platform | Cost |
+|-----------|----------|------|
+| Store Hosting | GitHub Pages | FREE |
+| Shopping Cart | Snipcart | FREE (2% fee on sales) |
+| Automation | GitHub Actions | FREE (2000 min/month) |
+| Notebooks | Google Colab | FREE |
+| Order Tracking | Google Sheets | FREE |
+| Payments | PayPal Business | ~3% fee |
+| Images | Unsplash/Pexels API | FREE |
 
 ---
 
 ## Repository Structure
 
 ```
-dropship-automation/
+SellBuddy/
 ├── .github/workflows/
-│   ├── daily_research.yml
-│   ├── weekly_report.yml
-│   └── social_posting.yml
+│   ├── deploy-store.yml          # Auto-deploy to GitHub Pages
+│   ├── autonomous-daily.yml      # Daily automation (8 AM UTC)
+│   ├── daily_research.yml        # Product research
+│   ├── weekly_report.yml         # Weekly analytics
+│   └── social_posting.yml        # Social media scheduling
 ├── store/
-│   ├── index.html
-│   ├── products.js
-│   └── chat_widget.js
+│   ├── index.html                # Main store page (Snipcart integrated)
+│   ├── styles.css                # Store styling
+│   ├── products.js               # Product display logic
+│   ├── chat_widget.js            # Customer support chatbot
+│   ├── about.html, faq.html, contact.html, etc.
 ├── bots/
-│   ├── product_research_bot.py
-│   ├── supplier_bot.py
-│   ├── social_media_bot.py
-│   ├── customer_service_bot.py
-│   ├── analytics_dashboard.py
-│   └── influencer_bot.py
+│   ├── autonomous_controller.py  # MASTER CONTROLLER - runs everything
+│   ├── product_research_bot.py   # Finds trending products
+│   ├── viral_marketing_bot.py    # TikTok/Instagram/Reddit content
+│   ├── image_fetcher_bot.py      # Unsplash/Pexels images
+│   ├── order_handler_bot.py      # Google Sheets integration
+│   ├── order_simulator.py        # Test order generation
+│   ├── analytics_dashboard.py    # Revenue/profit tracking
+│   ├── supplier_bot.py           # Supplier price tracking
+│   ├── social_media_bot.py       # Content scheduling
+│   ├── customer_service_bot.py   # FAQ auto-responder
+│   └── influencer_bot.py         # Micro-influencer outreach
+├── backend/
+│   ├── payment/
+│   │   ├── gateway.php           # Custom payment gateway
+│   │   ├── checkout.php          # Checkout handler
+│   │   └── config.php            # Payment configuration
+│   └── webhooks/
+│       ├── snipcart_webhook.php  # Order processing webhook
+│       └── google_sheets_setup.js # Apps Script for Sheets
+├── notebooks/
+│   └── SellBuddy_Autonomous.ipynb # Google Colab notebook
 ├── data/
-│   ├── products.json
-│   ├── orders.json
-│   └── influencers.json
-├── reports/
-│   ├── daily_report.html
-│   └── dashboard.html
-├── requirements.txt
-└── README.md
+│   ├── products.json             # Product catalog
+│   ├── products_full.json        # Full product data with SEO
+│   ├── orders.json               # Order history
+│   ├── analytics.json            # Sales analytics
+│   └── influencers.json          # Influencer database
+├── content/                      # Generated marketing content
+├── reports/                      # Analytics reports
+├── AUTONOMOUS_SETUP.md           # Complete setup guide
+├── README.md                     # Project documentation
+└── requirements.txt              # Python dependencies
 ```
 
 ---
 
-## Marketing Strategy
+## Autonomous Bots
 
-### Organic (Free) Channels
-1. **TikTok** - 2-3 posts daily, use trending sounds, hooks from bot
-2. **Instagram Reels** - Cross-post TikTok content
-3. **Reddit** - Join niche subreddits, engage authentically, soft promotions
-4. **Pinterest** - Long-term SEO traffic, vertical pins
-5. **Facebook Groups** - Join 20-30 groups, provide value first
+### 1. Master Controller (`autonomous_controller.py`)
+The brain of the operation. Coordinates all other bots.
+- Auto-generates new trending products
+- Auto-updates prices based on performance
+- Auto-removes low performers
+- Auto-generates daily content
+- Auto-processes orders
+- Auto-generates analytics reports
 
-### Content Hooks That Work
-- "You won't believe what I just found..."
-- "This changed everything for me"
-- "POV: You finally discover the [product]"
-- "Things that will make your life 10x easier"
-- "Best purchase I made this year"
+### 2. Product Research Bot (`product_research_bot.py`)
+- Scrapes Google Trends, Reddit
+- Simulates AliExpress/TikTok data
+- Identifies viral products with 50-70% margins
+- Generates daily HTML reports
 
-### Influencer Strategy
-- Target micro-influencers (1K-10K followers)
-- Offer free products for honest reviews
-- Use Influencer Bot for outreach
-- Expected response rate: 10-20%
-- Expected acceptance rate: 30-50% of responses
+### 3. Viral Marketing Bot (`viral_marketing_bot.py`)
+- Creates TikTok scripts with 2025 viral hooks
+- Generates Instagram captions with emojis
+- Writes Reddit posts (authentic style)
+- Creates Twitter/X threads
+- Uses trending hooks like "POV:", "No one talks about..."
 
----
+### 4. Image Fetcher Bot (`image_fetcher_bot.py`)
+- Fetches free images from Unsplash API
+- Falls back to Pexels API
+- Auto-downloads and organizes by product
+- No copyright issues
 
-## 60-Day Roadmap
+### 5. Order Handler Bot (`order_handler_bot.py`)
+- Integrates with Google Sheets
+- Auto-logs all orders
+- Generates supplier order emails
+- Sends customer confirmations
+- Tracks order status
 
-### Week 1-2: Foundation
-- Deploy store to GitHub Pages
-- Set up all free accounts
-- Configure GitHub Actions
-- Start daily content posting
-- Begin influencer outreach
-
-### Week 3-4: First Sales
-- Target: 5-15 orders
-- Revenue goal: $150-500
-- Scale content that works
-- Build email list
-
-### Week 5-8: Optimization
-- Target: 30-80 total orders
-- Revenue goal: $500-2,000
-- Add 3-5 new products
-- Automate more processes
-
-### KPIs to Track
-| Metric | Week 2 | Week 4 | Week 8 |
-|--------|--------|--------|--------|
-| Store Sessions | 500 | 1,500 | 5,000 |
-| Conversion Rate | 1-2% | 2-3% | 2-4% |
-| Orders | 5-15 | 15-40 | 40-100 |
-| Revenue | $150-400 | $400-1,000 | $1,000-2,500 |
-| Social Followers | 500 | 2,000 | 5,000 |
+### 6. Order Simulator (`order_simulator.py`)
+- Generates test orders for system testing
+- Sends to webhook endpoints
+- Validates the full order flow
 
 ---
 
-## Legal Notes (Bangladesh)
+## Snipcart Configuration
 
-### Business Registration
-- Start informal (no registration needed initially)
-- Register with City Corporation after $500+/month
-- Consider US LLC via Stripe Atlas at $2,000+/month
+**Dashboard**: https://app.snipcart.com
+**Current API Key**: Test mode (ST_...)
+**Webhook URL**: Set to your backend webhook endpoint
 
-### Products to Avoid
-- Electronics without CE/FCC marking
-- Cosmetics/supplements without FDA approval
-- Branded/trademarked items
-- Prohibited items (weapons, restricted goods)
+### Key Settings:
+- Domain: `nazmulaminashiq-coder.github.io`
+- Currency: USD
+- Shipping: $4.99 (free over $50)
+- Payment: PayPal + Stripe
 
 ---
 
-## Session Log
+## GitHub Actions Workflows
 
-### December 10, 2025
-- Created comprehensive zero-budget dropshipping guide
-- Built 6 autonomous Python bots for automation
-- Designed free store template (HTML/CSS/JS)
-- Set up GitHub Actions workflows for automation
-- Compiled complete repository structure
-- Created 60-day launch roadmap
+| Workflow | Schedule | Purpose |
+|----------|----------|---------|
+| `deploy-store.yml` | On push + daily midnight | Deploy store to GitHub Pages |
+| `autonomous-daily.yml` | Daily 8 AM UTC | Run all bots, commit changes |
+| `daily_research.yml` | Daily 6 AM UTC | Product research |
+| `weekly_report.yml` | Weekly Sunday 10 AM | Generate weekly report |
+| `social_posting.yml` | Every 6 hours | Social media content |
+
+---
+
+## Products (Current Catalog)
+
+| Product | Price | Margin | Category |
+|---------|-------|--------|----------|
+| Galaxy Projector | $39.99 | 55% | Smart Home |
+| LED Strip Lights | $24.99 | 58% | Smart Home |
+| Posture Corrector | $29.99 | 52% | Wellness |
+| Pet Water Fountain | $34.99 | 55% | Pet Products |
+| Phone Camera Lens Kit | $19.99 | 60% | Tech |
+| Magnetic Phone Mount | $14.99 | 65% | Tech |
+| Acupressure Mat | $44.99 | 50% | Wellness |
+| Smart Plant Watering | $27.99 | 58% | Smart Home |
+
+---
+
+## Order Flow (Fully Automatic)
+
+```
+Customer visits store
+        ↓
+Adds product to cart (Snipcart)
+        ↓
+Completes checkout (PayPal/Stripe)
+        ↓
+Snipcart sends webhook
+        ↓
+┌───────────────────────────────────────┐
+│  snipcart_webhook.php processes:      │
+│  1. Saves to data/orders.json         │
+│  2. Sends to Google Sheets            │
+│  3. Emails customer confirmation      │
+│  4. Emails owner notification         │
+│  5. Updates analytics                 │
+└───────────────────────────────────────┘
+        ↓
+Owner sees order in Google Sheets
+        ↓
+Owner places order with supplier
+        ↓
+Supplier ships to customer
+```
 
 ---
 
 ## Quick Commands
 
 ```bash
-# Run product research
-python bots/product_research_bot.py
+# Run full autonomous cycle
+python bots/autonomous_controller.py daily
 
-# Generate analytics dashboard
+# Run individual bots
+python bots/product_research_bot.py
+python bots/viral_marketing_bot.py
+python bots/image_fetcher_bot.py
 python bots/analytics_dashboard.py
 
-# Generate social content
-python bots/social_media_bot.py
+# Simulate test orders
+python bots/order_simulator.py --count 5
 
-# Run influencer outreach
-python bots/influencer_bot.py
+# Simulate with webhook
+python bots/order_simulator.py --webhook YOUR_WEBHOOK_URL
 ```
 
 ---
 
-## Next Steps
-1. Create GitHub repository with provided structure
-2. Deploy store to GitHub Pages
-3. Set up PayPal Business account
-4. Create TikTok/Instagram business accounts
-5. Run first product research bot
-6. Start daily content posting
-7. Begin influencer outreach campaign
+## Google Colab
+
+Open `notebooks/SellBuddy_Autonomous.ipynb` in Colab for:
+- Running full autonomous cycle
+- Manual product updates
+- Content generation
+- Order processing
+- Pushing changes to GitHub
+
+---
+
+## Setup Checklist
+
+- [x] Repository created and public
+- [x] GitHub Pages enabled (Source: GitHub Actions)
+- [x] Store deployed and live
+- [x] All bots created
+- [x] GitHub Actions workflows configured
+- [x] Snipcart webhook handler created
+- [x] Google Sheets script created
+- [x] Colab notebook ready
+- [ ] Snipcart account configured (user action needed)
+- [ ] PayPal Business connected (user action needed)
+- [ ] Google Sheets webhook deployed (user action needed)
+
+---
+
+## Session Log
+
+### December 10, 2025 (Latest)
+- Built complete autonomous system
+- Created master autonomous controller
+- Added Snipcart webhook handler
+- Created Google Sheets Apps Script
+- Added order simulator for testing
+- Created comprehensive setup guide (AUTONOMOUS_SETUP.md)
+- Deployed GitHub Actions for daily automation
+- Created Google Colab notebook
+- All changes pushed to GitHub
+
+### Previous Sessions
+- Created 6 Python bots for automation
+- Designed store with Snipcart integration
+- Set up GitHub Actions workflows
+- Created product catalog with SEO descriptions
+- Built viral marketing content generator
+
+---
+
+## Important Files to Know
+
+| File | Purpose |
+|------|---------|
+| `store/index.html:288` | Snipcart API key location |
+| `bots/autonomous_controller.py` | Main automation brain |
+| `backend/webhooks/snipcart_webhook.php` | Order processing |
+| `backend/webhooks/google_sheets_setup.js` | Copy to Apps Script |
+| `data/products.json` | Product catalog |
+| `AUTONOMOUS_SETUP.md` | Complete setup instructions |
+
+---
+
+## Next Steps for User
+
+1. **Configure Snipcart**: Get API key, update store
+2. **Set up PayPal Business**: Connect to Snipcart
+3. **Deploy Google Sheets webhook**: Copy Apps Script, deploy as web app
+4. **Start marketing**: Use generated content for TikTok/Instagram
+5. **Monitor orders**: Check Google Sheets daily
 
 ---
 
