@@ -45,6 +45,8 @@ class Platform(Enum):
     REDDIT = "reddit"
     YOUTUBE = "youtube"
     PINTEREST = "pinterest"
+    FACEBOOK = "facebook"
+    LINKEDIN = "linkedin"
 
 
 class HookType(Enum):
@@ -360,22 +362,32 @@ class EliteContentEngine:
         "smart_home": {
             Platform.TIKTOK: ["#galaxyprojector", "#roomdecor", "#aestheticroom", "#roommakeover", "#ledlights", "#fyp", "#viral", "#roomtour", "#cozyroom", "#tiktokfinds"],
             Platform.INSTAGRAM: ["#roomdecor", "#aestheticroom", "#homedecor", "#interiordesign", "#roommakeover", "#homeinspo", "#cozyhome", "#apartmentdecor", "#reels", "#explore"],
+            Platform.FACEBOOK: ["#homedecor", "#roomdecor", "#interiordesign", "#smarthome", "#cozyhome", "#aestheticroom", "#homeinspo", "#livingroomdecor"],
+            Platform.LINKEDIN: ["#smarthome", "#homeautomation", "#interiordesign", "#workfromhome", "#homeoffice", "#productivity", "#innovation"],
         },
         "health_wellness": {
             Platform.TIKTOK: ["#wellnesstok", "#selfcare", "#healthtok", "#posture", "#wellness", "#fyp", "#viral", "#healthylifestyle", "#selfcaretips", "#lifehacks"],
             Platform.INSTAGRAM: ["#wellness", "#selfcare", "#healthylifestyle", "#wellnessjourney", "#selflove", "#healthyliving", "#mindfulness", "#reels", "#fitness", "#explore"],
+            Platform.FACEBOOK: ["#wellness", "#selfcare", "#health", "#healthylifestyle", "#wellbeing", "#fitness", "#mindfulness", "#selflove"],
+            Platform.LINKEDIN: ["#wellness", "#employeewellness", "#worklifebalance", "#mentalhealth", "#productivity", "#corporatewellness", "#healthyhabits"],
         },
         "beauty_tools": {
             Platform.TIKTOK: ["#beautytok", "#skincare", "#glowup", "#beautyhacks", "#skincareroutine", "#fyp", "#viral", "#makeup", "#beautyfinds", "#skincaretips"],
             Platform.INSTAGRAM: ["#skincare", "#beauty", "#skincareroutine", "#glowingskin", "#beautytips", "#skincareproducts", "#beautyblogger", "#reels", "#beautycommunity", "#explore"],
+            Platform.FACEBOOK: ["#skincare", "#beauty", "#selfcare", "#glowingskin", "#beautytips", "#skincareroutine", "#naturalbeauty", "#beautyproducts"],
+            Platform.LINKEDIN: ["#beautyindustry", "#skincare", "#selfcare", "#personalbranding", "#wellnessatwork", "#beautytech", "#innovation"],
         },
         "pet_products": {
             Platform.TIKTOK: ["#pettok", "#dogsoftiktok", "#catsoftiktok", "#petlife", "#dogmom", "#catmom", "#fyp", "#viral", "#pets", "#furbaby"],
             Platform.INSTAGRAM: ["#dogsofinstagram", "#catsofinstagram", "#pets", "#petlife", "#doglovers", "#catlovers", "#petsofinstagram", "#reels", "#petphotography", "#explore"],
+            Platform.FACEBOOK: ["#pets", "#petlovers", "#doglovers", "#catlovers", "#petsofFacebook", "#petcare", "#furbaby", "#petproducts"],
+            Platform.LINKEDIN: ["#petindustry", "#pettech", "#petcare", "#animalwelfare", "#entrepreneurship", "#smallbusiness", "#ecommerce"],
         },
         "tech_accessories": {
             Platform.TIKTOK: ["#techtok", "#gadgets", "#tech", "#amazonfinds", "#desksetup", "#fyp", "#viral", "#techreview", "#musthaves", "#productivity"],
             Platform.INSTAGRAM: ["#tech", "#gadgets", "#technology", "#techie", "#desksetup", "#workfromhome", "#techreviews", "#reels", "#techlife", "#explore"],
+            Platform.FACEBOOK: ["#technology", "#gadgets", "#tech", "#techreviews", "#workfromhome", "#homeoffice", "#desksetup", "#productivity"],
+            Platform.LINKEDIN: ["#technology", "#innovation", "#productivity", "#workfromhome", "#remotework", "#techgadgets", "#futureofwork", "#digitaltransformation"],
         }
     }
 
@@ -407,6 +419,24 @@ class EliteContentEngine:
             "(Feel free to ask questions in the comments)",
             "(Happy to share where I got it if anyone's interested)",
             "(Link available if anyone wants it - just DM me)",
+        ],
+        Platform.FACEBOOK: [
+            "Click the link in comments!",
+            "Share with someone who needs this!",
+            "Tag a friend who would love this!",
+            "Drop a ❤️ if you want the link!",
+            "Comment 'INFO' for details!",
+            "Join our group for more finds!",
+            "Like our page for daily deals!",
+        ],
+        Platform.LINKEDIN: [
+            "Link in comments below.",
+            "Follow for more productivity insights.",
+            "Share with your network if this resonates.",
+            "What's your experience with this? Comment below.",
+            "Connect with me for more recommendations.",
+            "Save this post for later reference.",
+            "Repost to help others discover this.",
         ],
     }
 
@@ -474,6 +504,206 @@ class EliteContentEngine:
 
         content.viral_score = self._calculate_viral_score(content, product)
         return content
+
+    def generate_facebook_content(self, product: Dict) -> ContentPiece:
+        """Generate optimized Facebook content."""
+        hook, hook_type = self.hook_engine.generate_hook(product, platform=Platform.FACEBOOK)
+        niche = product.get("niche", "smart_home")
+
+        body = self._generate_facebook_body(product, hook_type)
+        cta = random.choice(self.CTAS[Platform.FACEBOOK])
+        hashtags = self._get_optimized_hashtags(niche, Platform.FACEBOOK)
+
+        content_id = hashlib.md5(f"{product['name']}-facebook-{datetime.now()}".encode()).hexdigest()[:8]
+
+        content = ContentPiece(
+            id=content_id,
+            platform=Platform.FACEBOOK,
+            hook=hook,
+            body=body,
+            cta=cta,
+            hashtags=hashtags
+        )
+
+        content.viral_score = self._calculate_viral_score(content, product)
+        content.variations = self._generate_variations(product, Platform.FACEBOOK)
+        return content
+
+    def generate_linkedin_content(self, product: Dict) -> ContentPiece:
+        """Generate optimized LinkedIn content."""
+        # LinkedIn uses different hook style - more professional
+        name = product.get("name", "this product")
+        niche = product.get("niche", "smart_home")
+
+        # Professional hooks for LinkedIn
+        linkedin_hooks = [
+            f"A small change that made a big difference in my daily routine.",
+            f"What I learned from investing in quality over convenience.",
+            f"The productivity hack nobody talks about.",
+            f"Why I finally stopped ignoring this problem (and what changed).",
+            f"3 things I wish I knew before optimizing my workspace.",
+            f"The ROI of investing in your personal environment.",
+            f"Sometimes the simplest solutions have the biggest impact.",
+            f"I was skeptical until I tried this approach.",
+        ]
+
+        hook = random.choice(linkedin_hooks)
+        body = self._generate_linkedin_body(product, HookType.STORY)
+        cta = random.choice(self.CTAS[Platform.LINKEDIN])
+        hashtags = self._get_optimized_hashtags(niche, Platform.LINKEDIN)
+
+        content_id = hashlib.md5(f"{product['name']}-linkedin-{datetime.now()}".encode()).hexdigest()[:8]
+
+        content = ContentPiece(
+            id=content_id,
+            platform=Platform.LINKEDIN,
+            hook=hook,
+            body=body,
+            cta=cta,
+            hashtags=hashtags
+        )
+
+        content.viral_score = self._calculate_viral_score(content, product)
+        return content
+
+    def generate_facebook_group_post(self, product: Dict, group_type: str = "general") -> str:
+        """Generate Facebook group-appropriate post."""
+        name = product.get("name", "product")
+        features = product.get("features", [])
+        price = product.get("price", 29.99)
+
+        group_templates = {
+            "deals": f"""🔥 DEAL ALERT 🔥
+
+Found this {name} for only ${price}!
+
+What it does:
+{chr(10).join(f'• {f}' for f in features[:3])}
+
+Has anyone here tried this? Looking for honest opinions before I pull the trigger!
+
+(Happy to share the link if anyone wants it - just comment below!)""",
+
+            "recommendations": f"""Looking for recommendations vs. sharing mine!
+
+I recently got this {name} and wanted to share my experience.
+
+Pros:
+{chr(10).join(f'✅ {f}' for f in features[:3])}
+
+Cons:
+❌ Shipping took about 2 weeks
+❌ Wish it came in more colors
+
+Overall: 4.5/5 - Would recommend!
+
+Anyone else have experience with this? Or alternative suggestions?""",
+
+            "general": f"""Hey everyone! 👋
+
+Just wanted to share something that's been really helpful for me lately.
+
+I picked up this {name} about a month ago, and honestly, it's exceeded my expectations.
+
+Key features I love:
+{chr(10).join(f'→ {f}' for f in features[:3])}
+
+It's around ${price} which I thought was reasonable for the quality.
+
+Has anyone else tried something similar? Would love to hear your experiences!
+
+(Link in comments for anyone interested)"""
+        }
+
+        return group_templates.get(group_type, group_templates["general"])
+
+    def generate_facebook_marketplace_listing(self, product: Dict) -> Dict:
+        """Generate Facebook Marketplace-style listing."""
+        name = product.get("name", "Product")
+        features = product.get("features", [])
+        price = product.get("price", 29.99)
+
+        description = f"""✨ {name} - Brand New! ✨
+
+Why you'll love it:
+{chr(10).join(f'• {f}' for f in features[:5])}
+
+🏷️ Price: ${price}
+📦 Condition: Brand New
+🚚 Shipping: Available nationwide
+
+💬 Message me for questions!
+⭐ Check out my other listings for more great finds!
+
+#shoplocal #greatdeal #musthave"""
+
+        return {
+            "title": f"{name} - Brand New, Fast Shipping!",
+            "price": price,
+            "description": description,
+            "category": "Home & Garden",
+            "condition": "New",
+            "availability": "In Stock",
+        }
+
+    def generate_linkedin_article(self, product: Dict) -> str:
+        """Generate LinkedIn article/newsletter content."""
+        name = product.get("name", "this product")
+        niche = product.get("niche", "productivity")
+        features = product.get("features", [])
+
+        professional_context = {
+            "smart_home": ("home office optimization", "remote work productivity"),
+            "health_wellness": ("workplace wellness", "employee health"),
+            "beauty_tools": ("personal branding", "professional presence"),
+            "pet_products": ("work-life balance", "stress management"),
+            "tech_accessories": ("productivity tools", "digital workflow"),
+        }
+
+        context = professional_context.get(niche, ("professional development", "efficiency"))
+
+        article = f"""# The Hidden ROI of Investing in Your {context[0].title()}
+
+In today's fast-paced professional environment, {context[1]} has become more important than ever.
+
+## The Problem
+
+Many professionals overlook the small improvements that can compound into significant productivity gains. We focus on big changes while ignoring the fundamentals.
+
+## A Different Approach
+
+Recently, I've been experimenting with optimizing my personal environment. One discovery worth sharing: the {name}.
+
+### What Makes It Different
+
+{chr(10).join(f'**{f}**' for f in features[:3])}
+
+## The Results
+
+After implementing this change, I noticed:
+- Improved focus during work hours
+- Better work-life separation
+- Reduced daily friction
+
+## Key Takeaways
+
+1. **Small investments compound** - Don't underestimate minor improvements
+2. **Environment matters** - Your surroundings affect your output
+3. **Test and iterate** - What works for others may need adjustment for you
+
+## Your Turn
+
+What small changes have made a big difference in your professional life?
+
+I'd love to hear your experiences in the comments.
+
+---
+
+*If you found this valuable, consider sharing it with your network.*
+
+#Productivity #WorkFromHome #ProfessionalDevelopment #{context[0].replace(' ', '')}"""
+
+        return article
 
     def generate_twitter_thread(self, product: Dict) -> List[str]:
         """Generate viral Twitter/X thread."""
@@ -565,6 +795,77 @@ class EliteContentEngine:
                 body += f"▪️ {f}\n"
 
         body += f"\nWould you try this? Drop a 🌟 if you want the link!"
+
+        return body
+
+    def _generate_facebook_body(self, product: Dict, hook_type: HookType) -> str:
+        """Generate Facebook-optimized body content."""
+        name = product.get("name", "this")
+        features = product.get("features", [])
+        price = product.get("price", 29.99)
+
+        templates = [
+            f"I've been using this {name} for a few weeks now and I had to share my experience!\n\n",
+            f"So many of you have been asking about this {name} - here's everything you need to know!\n\n",
+            f"Found this amazing {name} and I'm honestly obsessed 😍\n\n",
+            f"Okay friends, let me tell you about this {name} that's been changing my life!\n\n",
+        ]
+
+        body = random.choice(templates)
+
+        if features:
+            body += "Here's what I love about it:\n"
+            for f in features[:4]:
+                body += f"✅ {f}\n"
+            body += "\n"
+
+        body += f"💰 It's only ${price}! (Link in comments)\n\n"
+        body += "Have any of you tried this? Let me know in the comments! 👇"
+
+        return body
+
+    def _generate_linkedin_body(self, product: Dict, hook_type: HookType) -> str:
+        """Generate LinkedIn-optimized professional content."""
+        name = product.get("name", "this product")
+        features = product.get("features", [])
+        niche = product.get("niche", "productivity")
+
+        # Professional angle based on niche
+        professional_angles = {
+            "smart_home": "home office setup",
+            "health_wellness": "workplace wellness",
+            "beauty_tools": "personal branding",
+            "pet_products": "work-life balance",
+            "tech_accessories": "productivity optimization",
+        }
+
+        angle = professional_angles.get(niche, "professional development")
+
+        templates = [
+            f"I recently made a small investment in my {angle} that's made a surprising difference.\n\n",
+            f"When it comes to {angle}, it's the small changes that often have the biggest impact.\n\n",
+            f"A colleague recommended this {name} for improving my {angle}. Here's what I learned:\n\n",
+            f"After researching solutions for {angle}, I discovered something worth sharing.\n\n",
+        ]
+
+        body = random.choice(templates)
+
+        # Add value proposition
+        body += f"The {name} addresses a common challenge many professionals face:\n\n"
+
+        if features:
+            for f in features[:3]:
+                body += f"→ {f}\n"
+            body += "\n"
+
+        # Add professional insight
+        body += "Key takeaways:\n"
+        body += "• Sometimes the simplest solutions are the most effective\n"
+        body += "• Investing in your environment pays dividends in productivity\n"
+        body += "• Don't underestimate the impact of small quality-of-life improvements\n\n"
+
+        body += "Has anyone else discovered tools that unexpectedly improved their workflow?\n\n"
+        body += "I'd love to hear your recommendations in the comments."
 
         return body
 

@@ -44,6 +44,8 @@ class Platform(Enum):
     REDDIT = "reddit"
     PINTEREST = "pinterest"
     YOUTUBE_SHORTS = "youtube_shorts"
+    FACEBOOK = "facebook"
+    LINKEDIN = "linkedin"
 
 
 # ============================================
@@ -231,6 +233,14 @@ class ElitePlatformOptimizer:
             "weekday": ["2:00 PM", "8:00 PM", "11:00 PM"],
             "weekend": ["9:00 PM", "11:00 PM"],
         },
+        Platform.FACEBOOK: {
+            "weekday": ["9:00 AM", "1:00 PM", "3:00 PM", "7:00 PM"],
+            "weekend": ["12:00 PM", "1:00 PM", "4:00 PM", "7:00 PM"],
+        },
+        Platform.LINKEDIN: {
+            "weekday": ["7:30 AM", "12:00 PM", "5:00 PM", "6:00 PM"],
+            "weekend": ["10:00 AM", "12:00 PM"],  # Lower engagement on weekends
+        },
     }
 
     HASHTAG_STRATEGIES = {
@@ -247,6 +257,20 @@ class ElitePlatformOptimizer:
             "beauty_tools": ["#skincare", "#beauty", "#skincareroutine", "#glowingskin", "#beautytips", "#reels", "#explore"],
             "pet_products": ["#dogsofinstagram", "#catsofinstagram", "#pets", "#petlife", "#petlovers", "#reels", "#explore"],
             "tech_accessories": ["#tech", "#gadgets", "#technology", "#techie", "#desksetup", "#reels", "#explore"],
+        },
+        Platform.FACEBOOK: {
+            "smart_home": ["#homedecor", "#smarthome", "#interiordesign", "#homeinspo", "#roomdecor", "#cozyhome", "#livingroom", "#homeoffice"],
+            "health_wellness": ["#wellness", "#selfcare", "#health", "#healthylifestyle", "#fitness", "#wellbeing", "#mindfulness", "#selfimprovement"],
+            "beauty_tools": ["#skincare", "#beauty", "#selfcare", "#glowingskin", "#beautytips", "#skincareroutine", "#naturalbeauty"],
+            "pet_products": ["#pets", "#petlovers", "#doglovers", "#catlovers", "#petcare", "#furbaby", "#petlife", "#animals"],
+            "tech_accessories": ["#technology", "#gadgets", "#tech", "#homeoffice", "#workfromhome", "#productivity", "#desksetup"],
+        },
+        Platform.LINKEDIN: {
+            "smart_home": ["#SmartHome", "#HomeOffice", "#RemoteWork", "#Productivity", "#WorkFromHome", "#Innovation", "#FutureOfWork"],
+            "health_wellness": ["#Wellness", "#EmployeeWellness", "#WorkLifeBalance", "#MentalHealth", "#CorporateWellness", "#HealthyHabits", "#Productivity"],
+            "beauty_tools": ["#PersonalBranding", "#SelfCare", "#ProfessionalDevelopment", "#WellnessAtWork", "#BeautyTech", "#Innovation"],
+            "pet_products": ["#WorkLifeBalance", "#RemoteWork", "#PetFriendlyWorkplace", "#EmployeeWellbeing", "#CompanyCulture", "#Entrepreneurship"],
+            "tech_accessories": ["#Technology", "#Productivity", "#Innovation", "#RemoteWork", "#FutureOfWork", "#DigitalTransformation", "#TechGadgets"],
         },
     }
 
@@ -278,6 +302,26 @@ class ElitePlatformOptimizer:
             "(Happy to share where I got it in the comments)",
             "(Link in my profile if anyone wants it)",
             "(Feel free to DM me for details)",
+        ],
+        Platform.FACEBOOK: [
+            "Click the link in comments!",
+            "Share with someone who needs this!",
+            "Tag a friend who would love this!",
+            "Drop a ❤️ if you want details!",
+            "Comment 'INFO' for the link!",
+            "Join our group for more finds!",
+            "Like our page for daily deals!",
+            "Check out our shop - link in comments!",
+        ],
+        Platform.LINKEDIN: [
+            "Link in comments below.",
+            "Follow for more insights.",
+            "Share with your network.",
+            "What are your thoughts? Comment below.",
+            "Connect with me for more recommendations.",
+            "Save this post for later.",
+            "Repost if this resonates with you.",
+            "DM me for more details.",
         ],
     }
 
@@ -322,6 +366,8 @@ class EliteEngagementPredictor:
         Platform.TWITTER: {"views": 300, "engagement": 3.0, "viral_chance": 0.01},
         Platform.REDDIT: {"views": 200, "engagement": 4.0, "viral_chance": 0.03},
         Platform.PINTEREST: {"views": 400, "engagement": 2.5, "viral_chance": 0.01},
+        Platform.FACEBOOK: {"views": 350, "engagement": 2.5, "viral_chance": 0.015},  # Lower organic reach
+        Platform.LINKEDIN: {"views": 250, "engagement": 4.0, "viral_chance": 0.02},   # Higher B2B engagement
     }
 
     def predict_engagement(
@@ -455,6 +501,16 @@ class EliteContentGenerator:
                 f"Just got this {product_name} and I'm obsessed 🔥",
                 f"The {product_name} that broke the internet is actually worth it",
             ],
+            Platform.FACEBOOK: [
+                f"Hey friends! 👋 I just had to share this {product_name} with you all!\n\nI've been using it for a few weeks now and honestly, it's exceeded all my expectations.\n\nHas anyone else tried this? Let me know in the comments! 👇",
+                f"Okay so I finally caved and bought that {product_name} everyone's been talking about...\n\nVerdict? 10/10 would recommend! 😍\n\nComment below if you want the details!",
+                f"🎉 Find of the week! 🎉\n\nThis {product_name} has been a game-changer for me.\n\nTag someone who needs to see this!",
+            ],
+            Platform.LINKEDIN: [
+                f"I've been experimenting with ways to improve my daily routine, and I wanted to share a discovery.\n\nThe {product_name} has made a notable difference in my productivity.\n\nKey takeaway: Sometimes small investments yield surprising returns.\n\nHas anyone else found unexpected tools that improved their workflow?",
+                f"A quick reflection on optimizing our environments:\n\nI recently tried a {product_name} based on a colleague's recommendation.\n\nThe results? Better than expected.\n\nThis reminded me that we often overlook simple solutions while chasing complex ones.\n\nWhat small changes have made a big difference for you?",
+                f"Investment in quality over quantity - a lesson relearned.\n\nAfter researching options, I chose this {product_name}.\n\nThree weeks in, here's what I've noticed:\n→ Improved daily efficiency\n→ Better work environment\n→ Worth the investment\n\nI'd love to hear your recommendations in the comments.",
+            ],
         }
 
         options = templates.get(platform, templates[Platform.TIKTOK])
@@ -516,6 +572,8 @@ class EliteScheduleGenerator:
             Platform.TWITTER: ["Thread", "Single Tweet", "Poll"],
             Platform.REDDIT: ["Room Showcase", "Honest Review", "Discussion"],
             Platform.PINTEREST: ["Pin", "Idea Pin", "Board"],
+            Platform.FACEBOOK: ["Page Post", "Reel", "Story", "Group Post", "Marketplace Listing", "Live Video"],
+            Platform.LINKEDIN: ["Text Post", "Article", "Document Carousel", "Poll", "Newsletter", "Video"],
         }
 
         for day in range(7):
