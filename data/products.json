@@ -27,8 +27,8 @@
       "name": "Electric Back Scrubber",
       "category": "Personal Care",
       "description": "Long handle electric body brush. Waterproof, rechargeable, 2 speed settings.",
-      "price": 39.03,
-      "originalPrice": 62.45,
+      "price": 39.87,
+      "originalPrice": 63.79,
       "cost": 18.0,
       "margin": 55,
       "discount": 43,
@@ -253,5 +253,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2025-12-21T08:13:49.654615"
+  "lastUpdated": "2025-12-24T08:16:38.162418"
 }
