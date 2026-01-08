@@ -1,0 +1,35 @@
+[
+  {
+    "type": "twitter",
+    "product": "Sunset Projection Lamp",
+    "content": {
+      "tweet": "The Sunset Projection Lamp hype is REAL. Trust me on this one.\n\n\ud83d\udd17 in bio",
+      "thread_potential": true,
+      "best_time": "9:00 AM or 12:00 PM"
+    },
+    "generated_at": "2026-01-08T08:16:47.841653",
+    "scheduled_for": "2026-01-08T19:16:47.841657"
+  },
+  {
+    "type": "instagram",
+    "product": "Photo Projection Necklace",
+    "content": {
+      "caption": "POV: Your life after getting this Photo Projection Necklace \ud83d\ude0d\n\nLink in bio to shop!",
+      "hashtags": "#accessories #aesthetic #musthaves #shopnow #trending",
+      "best_time": "11:00 PM or 9:00 PM"
+    },
+    "generated_at": "2026-01-08T08:16:47.841672",
+    "scheduled_for": "2026-01-08T23:16:47.841673"
+  },
+  {
+    "type": "twitter",
+    "product": "Portable Blender USB",
+    "content": {
+      "tweet": "Just got this Portable Blender USB and I'm obsessed \ud83d\ude2d\n\nLink: [bio]",
+      "thread_potential": true,
+      "best_time": "8:00 AM or 14:00 PM"
+    },
+    "generated_at": "2026-01-08T08:16:47.841684",
+    "scheduled_for": "2026-01-08T14:16:47.841685"
+  }
+]
