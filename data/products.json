@@ -114,8 +114,8 @@
       "name": "Portable Blender USB",
       "category": "Kitchen",
       "description": "Personal size blender. USB rechargeable, 6 blades, perfect for smoothies on-the-go.",
-      "price": 30.49,
-      "originalPrice": 48.78,
+      "price": 31.4,
+      "originalPrice": 50.24,
       "cost": 8.0,
       "margin": 68,
       "discount": 44,
@@ -226,8 +226,8 @@
       "name": "Portable Steamer Device",
       "category": "Health & Wellness",
       "description": "Transform your health & wellness experience with our Portable Steamer Device.",
-      "price": 28.99,
-      "originalPrice": 46.38,
+      "price": 28.18,
+      "originalPrice": 45.09,
       "discount": 43,
       "image": "https://picsum.photos/seed/fc25c393/600/600",
       "rating": 4.6,
@@ -299,5 +299,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-01-08T08:16:47.841010"
+  "lastUpdated": "2026-01-09T08:16:59.357639"
 }
