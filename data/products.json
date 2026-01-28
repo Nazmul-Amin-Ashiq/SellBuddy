@@ -272,8 +272,8 @@
       "name": "USB Reading Lamp",
       "category": "Smart Home",
       "description": "The viral USB Reading Lamp everyone's talking about on TikTok.",
-      "price": 23.13,
-      "originalPrice": 37.01,
+      "price": 24.9,
+      "originalPrice": 39.84,
       "discount": 52,
       "image": "https://picsum.photos/seed/f3a32994/600/600",
       "rating": 4.6,
@@ -364,8 +364,8 @@
       "name": "USB Reading Lamp",
       "category": "Smart Home",
       "description": "Transform your smart home experience with our USB Reading Lamp.",
-      "price": 16.99,
-      "originalPrice": 27.18,
+      "price": 18.35,
+      "originalPrice": 29.36,
       "discount": 51,
       "image": "https://picsum.photos/seed/f3a32994/600/600",
       "rating": 4.8,
@@ -391,5 +391,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-01-27T08:18:21.859460"
+  "lastUpdated": "2026-01-28T08:17:58.635036"
 }
