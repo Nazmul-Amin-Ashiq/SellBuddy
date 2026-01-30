@@ -180,8 +180,8 @@
       "name": "Premium Dog Leash",
       "category": "Pet Supplies",
       "description": "Premium quality Premium Dog Leash at an unbeatable price.",
-      "price": 24.16,
-      "originalPrice": 38.66,
+      "price": 25.81,
+      "originalPrice": 41.3,
       "discount": 38,
       "image": "https://source.unsplash.com/600x600/?premium+dog+leash",
       "rating": 4.7,
@@ -226,8 +226,8 @@
       "name": "Portable Steamer Device",
       "category": "Health & Wellness",
       "description": "Transform your health & wellness experience with our Portable Steamer Device.",
-      "price": 29.15,
-      "originalPrice": 46.64,
+      "price": 28.02,
+      "originalPrice": 44.83,
       "discount": 43,
       "image": "https://picsum.photos/seed/fc25c393/600/600",
       "rating": 4.6,
@@ -391,5 +391,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-01-29T08:26:12.853609"
+  "lastUpdated": "2026-01-30T08:25:10.380419"
 }
