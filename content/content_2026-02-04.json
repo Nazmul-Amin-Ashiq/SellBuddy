@@ -1,0 +1,35 @@
+[
+  {
+    "type": "instagram",
+    "product": "Sunset Projection Lamp",
+    "content": {
+      "caption": "This Sunset Projection Lamp > everything else\n\nSave this for later! Link in bio \ud83d\uded2",
+      "hashtags": "#smarthome #aesthetic #musthaves #shopnow #trending",
+      "best_time": "11:00 PM or 7:00 PM"
+    },
+    "generated_at": "2026-02-04T08:27:04.002598",
+    "scheduled_for": "2026-02-04T22:27:04.002601"
+  },
+  {
+    "type": "instagram",
+    "product": "Smart Ocean Projector",
+    "content": {
+      "caption": "POV: Your life after getting this Smart Ocean Projector \ud83d\ude0d\n\nLink in bio to shop!",
+      "hashtags": "#smarthome #aesthetic #musthaves #shopnow #trending",
+      "best_time": "12:00 PM or 7:00 PM"
+    },
+    "generated_at": "2026-02-04T08:27:04.002616",
+    "scheduled_for": "2026-02-04T22:27:04.002617"
+  },
+  {
+    "type": "twitter",
+    "product": "Posture Corrector Pro",
+    "content": {
+      "tweet": "Just got this Posture Corrector Pro and I'm obsessed \ud83d\ude2d\n\nLink: [bio]",
+      "thread_potential": true,
+      "best_time": "9:00 AM or 14:00 PM"
+    },
+    "generated_at": "2026-02-04T08:27:04.002630",
+    "scheduled_for": "2026-02-05T02:27:04.002631"
+  }
+]
