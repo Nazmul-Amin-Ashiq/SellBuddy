@@ -136,8 +136,8 @@
       "name": "Posture Corrector Pro",
       "category": "Health & Wellness",
       "description": "Adjustable back brace for better posture. Breathable, invisible under clothes.",
-      "price": 20.84,
-      "originalPrice": 33.34,
+      "price": 22.08,
+      "originalPrice": 35.33,
       "cost": 6.0,
       "margin": 70,
       "discount": 50,
@@ -364,8 +364,8 @@
       "name": "USB Reading Lamp",
       "category": "Smart Home",
       "description": "Transform your smart home experience with our USB Reading Lamp.",
-      "price": 18.35,
-      "originalPrice": 29.36,
+      "price": 19.53,
+      "originalPrice": 31.25,
       "discount": 51,
       "image": "https://picsum.photos/seed/f3a32994/600/600",
       "rating": 4.8,
@@ -391,5 +391,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-02-04T08:27:04.002105"
+  "lastUpdated": "2026-02-05T08:30:07.763672"
 }
