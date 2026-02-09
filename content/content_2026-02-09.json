@@ -1,0 +1,35 @@
+[
+  {
+    "type": "twitter",
+    "product": "Photo Projection Necklace",
+    "content": {
+      "tweet": "The Photo Projection Necklace hype is REAL. Trust me on this one.\n\n\ud83d\udd17 in bio",
+      "thread_potential": true,
+      "best_time": "10:00 AM or 12:00 PM"
+    },
+    "generated_at": "2026-02-09T08:37:04.230005",
+    "scheduled_for": "2026-02-09T22:37:04.230008"
+  },
+  {
+    "type": "twitter",
+    "product": "Posture Corrector Pro",
+    "content": {
+      "tweet": "The Posture Corrector Pro hype is REAL. Trust me on this one.\n\n\ud83d\udd17 in bio",
+      "thread_potential": false,
+      "best_time": "9:00 AM or 12:00 PM"
+    },
+    "generated_at": "2026-02-09T08:37:04.230023",
+    "scheduled_for": "2026-02-09T18:37:04.230024"
+  },
+  {
+    "type": "instagram",
+    "product": "Premium Dog Leash",
+    "content": {
+      "caption": "\u2728 The Premium Dog Leash you've been seeing everywhere \u2728\n\nFinally got mine and WOW. Link in bio!",
+      "hashtags": "#petsupplies #aesthetic #musthaves #shopnow #trending",
+      "best_time": "11:00 PM or 9:00 PM"
+    },
+    "generated_at": "2026-02-09T08:37:04.230040",
+    "scheduled_for": "2026-02-09T10:37:04.230041"
+  }
+]
