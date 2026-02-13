@@ -1,0 +1,35 @@
+[
+  {
+    "type": "twitter",
+    "product": "Advanced Posture Brace",
+    "content": {
+      "tweet": "Things I didn't know I needed:\n1. This Advanced Posture Brace\n2. That's it. That's the list.\n\nLink in bio",
+      "thread_potential": false,
+      "best_time": "8:00 AM or 14:00 PM"
+    },
+    "generated_at": "2026-02-13T08:30:11.331590",
+    "scheduled_for": "2026-02-14T07:30:11.331594"
+  },
+  {
+    "type": "instagram",
+    "product": "LED Face Mask",
+    "content": {
+      "caption": "POV: Your life after getting this LED Face Mask \ud83d\ude0d\n\nLink in bio to shop!",
+      "hashtags": "#beautytools #aesthetic #musthaves #shopnow #trending",
+      "best_time": "11:00 PM or 9:00 PM"
+    },
+    "generated_at": "2026-02-13T08:30:11.331631",
+    "scheduled_for": "2026-02-14T02:30:11.331632"
+  },
+  {
+    "type": "twitter",
+    "product": "Posture Corrector Pro",
+    "content": {
+      "tweet": "Things I didn't know I needed:\n1. This Posture Corrector Pro\n2. That's it. That's the list.\n\nLink in bio",
+      "thread_potential": true,
+      "best_time": "8:00 AM or 13:00 PM"
+    },
+    "generated_at": "2026-02-13T08:30:11.331646",
+    "scheduled_for": "2026-02-13T13:30:11.331647"
+  }
+]
