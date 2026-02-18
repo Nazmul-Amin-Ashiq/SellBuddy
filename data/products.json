@@ -70,8 +70,8 @@
       "name": "No-Pull Dog Harness",
       "category": "Pet Supplies",
       "description": "Adjustable, breathable mesh harness. Reflective straps for night walks. All sizes.",
-      "price": 26.72,
-      "originalPrice": 42.75,
+      "price": 28.17,
+      "originalPrice": 45.07,
       "cost": 9.0,
       "margin": 64,
       "discount": 44,
@@ -158,8 +158,8 @@
       "name": "Sunset Projection Lamp",
       "category": "Smart Home",
       "description": "Instagram-famous sunset lamp. 180 degree rotation, USB powered, multiple colors.",
-      "price": 20.84,
-      "originalPrice": 33.34,
+      "price": 20.75,
+      "originalPrice": 33.2,
       "cost": 7.0,
       "margin": 70,
       "discount": 43,
@@ -460,5 +460,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-02-16T08:33:44.496770"
+  "lastUpdated": "2026-02-18T08:32:40.383212"
 }
