@@ -1,0 +1,36 @@
+[
+  {
+    "type": "twitter",
+    "product": "Electric Back Scrubber",
+    "content": {
+      "tweet": "Things I didn't know I needed:\n1. This Electric Back Scrubber\n2. That's it. That's the list.\n\nLink in bio",
+      "thread_potential": true,
+      "best_time": "10:00 AM or 13:00 PM"
+    },
+    "generated_at": "2026-02-21T08:17:27.173172",
+    "scheduled_for": "2026-02-21T23:17:27.173177"
+  },
+  {
+    "type": "twitter",
+    "product": "Galaxy LED Strip Light",
+    "content": {
+      "tweet": "Just got this Galaxy LED Strip Light and I'm obsessed \ud83d\ude2d\n\nLink: [bio]",
+      "thread_potential": true,
+      "best_time": "8:00 AM or 14:00 PM"
+    },
+    "generated_at": "2026-02-21T08:17:27.173201",
+    "scheduled_for": "2026-02-21T11:17:27.173203"
+  },
+  {
+    "type": "tiktok",
+    "product": "USB Reading Lamp",
+    "content": {
+      "hook": "The USB Reading Lamp that broke my TikTok algorithm",
+      "caption": "POV: You finally get the USB Reading Lamp everyone's been talking about\n\nLink in bio to get yours!\n\n#fyp #viral #tiktokfinds #amazonfinds #musthaves #trending",
+      "suggested_sound": "trending sound - aesthetic vibes",
+      "best_time": "9:00 PM"
+    },
+    "generated_at": "2026-02-21T08:17:27.173216",
+    "scheduled_for": "2026-02-21T10:17:27.173218"
+  }
+]
