@@ -48,8 +48,8 @@
       "name": "LED Strip Lights RGB",
       "category": "Smart Home",
       "description": "50ft smart LED strips with app control. Music sync, 16M colors, works with Alexa.",
-      "price": 35.24,
-      "originalPrice": 56.38,
+      "price": 34.86,
+      "originalPrice": 55.78,
       "cost": 8.0,
       "margin": 71,
       "discount": 44,
@@ -114,8 +114,8 @@
       "name": "Portable Blender USB",
       "category": "Kitchen",
       "description": "Personal size blender. USB rechargeable, 6 blades, perfect for smoothies on-the-go.",
-      "price": 33.43,
-      "originalPrice": 53.49,
+      "price": 34.94,
+      "originalPrice": 55.9,
       "cost": 8.0,
       "margin": 68,
       "discount": 44,
@@ -410,8 +410,8 @@
       "name": "Pro Posture Corrector",
       "category": "Health & Wellness",
       "description": "Premium quality Pro Posture Corrector at an unbeatable price.",
-      "price": 15.99,
-      "originalPrice": 25.58,
+      "price": 16.39,
+      "originalPrice": 26.22,
       "discount": 50,
       "image": "https://picsum.photos/seed/71e37e0c/600/600",
       "rating": 4.9,
@@ -460,5 +460,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-02-25T08:35:11.822410"
+  "lastUpdated": "2026-02-27T08:28:52.082149"
 }
