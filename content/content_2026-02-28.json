@@ -1,0 +1,35 @@
+[
+  {
+    "type": "twitter",
+    "product": "Sunset Projection Lamp",
+    "content": {
+      "tweet": "Just got this Sunset Projection Lamp and I'm obsessed \ud83d\ude2d\n\nLink: [bio]",
+      "thread_potential": true,
+      "best_time": "10:00 AM or 12:00 PM"
+    },
+    "generated_at": "2026-02-28T08:15:50.126012",
+    "scheduled_for": "2026-02-28T20:15:50.126016"
+  },
+  {
+    "type": "instagram",
+    "product": "Electric Back Scrubber",
+    "content": {
+      "caption": "This Electric Back Scrubber > everything else\n\nSave this for later! Link in bio \ud83d\uded2",
+      "hashtags": "#personalcare #aesthetic #musthaves #shopnow #trending",
+      "best_time": "11:00 PM or 9:00 PM"
+    },
+    "generated_at": "2026-02-28T08:15:50.126031",
+    "scheduled_for": "2026-02-28T10:15:50.126032"
+  },
+  {
+    "type": "twitter",
+    "product": "LED Strip Lights RGB",
+    "content": {
+      "tweet": "The LED Strip Lights RGB hype is REAL. Trust me on this one.\n\n\ud83d\udd17 in bio",
+      "thread_potential": true,
+      "best_time": "9:00 AM or 14:00 PM"
+    },
+    "generated_at": "2026-02-28T08:15:50.126044",
+    "scheduled_for": "2026-03-01T05:15:50.126044"
+  }
+]
