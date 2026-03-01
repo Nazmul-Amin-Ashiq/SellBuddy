@@ -2,7 +2,7 @@ SELLBUDDY 2-WEEK CONTENT CALENDAR
 ==================================================
 
 
-Day 1 - Saturday, February 28
+Day 1 - Sunday, March 01
 Platform: TikTok
 Content: TikTok Video
 Time: 7:00 PM
@@ -10,7 +10,7 @@ Product: Galaxy Star Projector
 Status: Scheduled
 ---
 
-Day 2 - Sunday, March 01
+Day 2 - Monday, March 02
 Platform: Instagram
 Content: Instagram Reel
 Time: 8:00 PM
@@ -18,7 +18,7 @@ Product: LED Strip Lights
 Status: Scheduled
 ---
 
-Day 3 - Monday, March 02
+Day 3 - Tuesday, March 03
 Platform: TikTok
 Content: TikTok Video
 Time: 12:00 PM
@@ -26,7 +26,7 @@ Product: Posture Corrector
 Status: Scheduled
 ---
 
-Day 4 - Tuesday, March 03
+Day 4 - Wednesday, March 04
 Platform: Twitter/X
 Content: Twitter Thread
 Time: 10:00 AM
@@ -34,7 +34,7 @@ Product: Portable Blender
 Status: Scheduled
 ---
 
-Day 5 - Wednesday, March 04
+Day 5 - Thursday, March 05
 Platform: Instagram
 Content: Instagram Story
 Time: 9:00 PM
@@ -42,7 +42,7 @@ Product: Galaxy Star Projector
 Status: Scheduled
 ---
 
-Day 6 - Thursday, March 05
+Day 6 - Friday, March 06
 Platform: TikTok
 Content: TikTok Video
 Time: 6:00 PM
@@ -50,7 +50,7 @@ Product: LED Strip Lights
 Status: Scheduled
 ---
 
-Day 7 - Friday, March 06
+Day 7 - Saturday, March 07
 Platform: Reddit
 Content: Reddit Post
 Time: 11:00 AM
@@ -58,7 +58,7 @@ Product: Posture Corrector
 Status: Scheduled
 ---
 
-Day 8 - Saturday, March 07
+Day 8 - Sunday, March 08
 Platform: TikTok
 Content: TikTok Video
 Time: 7:00 PM
@@ -66,7 +66,7 @@ Product: Portable Blender
 Status: Scheduled
 ---
 
-Day 9 - Sunday, March 08
+Day 9 - Monday, March 09
 Platform: Instagram
 Content: Instagram Reel
 Time: 8:00 PM
@@ -74,7 +74,7 @@ Product: Galaxy Star Projector
 Status: Scheduled
 ---
 
-Day 10 - Monday, March 09
+Day 10 - Tuesday, March 10
 Platform: TikTok
 Content: TikTok Video
 Time: 12:00 PM
@@ -82,7 +82,7 @@ Product: LED Strip Lights
 Status: Scheduled
 ---
 
-Day 11 - Tuesday, March 10
+Day 11 - Wednesday, March 11
 Platform: Twitter/X
 Content: Twitter Thread
 Time: 10:00 AM
@@ -90,7 +90,7 @@ Product: Posture Corrector
 Status: Scheduled
 ---
 
-Day 12 - Wednesday, March 11
+Day 12 - Thursday, March 12
 Platform: Instagram
 Content: Instagram Story
 Time: 9:00 PM
@@ -98,7 +98,7 @@ Product: Portable Blender
 Status: Scheduled
 ---
 
-Day 13 - Thursday, March 12
+Day 13 - Friday, March 13
 Platform: TikTok
 Content: TikTok Video
 Time: 6:00 PM
@@ -106,7 +106,7 @@ Product: Galaxy Star Projector
 Status: Scheduled
 ---
 
-Day 14 - Friday, March 13
+Day 14 - Saturday, March 14
 Platform: Reddit
 Content: Reddit Post
 Time: 11:00 AM
