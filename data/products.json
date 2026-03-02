@@ -92,8 +92,8 @@
       "name": "Photo Projection Necklace",
       "category": "Accessories",
       "description": "Custom photo projection pendant. Upload your photo, we'll create your memory.",
-      "price": 37.92,
-      "originalPrice": 60.67,
+      "price": 38.84,
+      "originalPrice": 62.14,
       "cost": 10.0,
       "margin": 67,
       "discount": 45,
@@ -414,5 +414,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-03-01T08:17:47.557896"
+  "lastUpdated": "2026-03-02T08:31:04.981086"
 }
