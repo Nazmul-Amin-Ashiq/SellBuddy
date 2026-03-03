@@ -1,0 +1,35 @@
+[
+  {
+    "type": "twitter",
+    "product": "Galaxy LED Strip Light",
+    "content": {
+      "tweet": "Just got this Galaxy LED Strip Light and I'm obsessed \ud83d\ude2d\n\nLink: [bio]",
+      "thread_potential": false,
+      "best_time": "10:00 AM or 13:00 PM"
+    },
+    "generated_at": "2026-03-03T08:27:35.781844",
+    "scheduled_for": "2026-03-04T07:27:35.781848"
+  },
+  {
+    "type": "instagram",
+    "product": "Galaxy Star Projector",
+    "content": {
+      "caption": "POV: Your life after getting this Galaxy Star Projector \ud83d\ude0d\n\nLink in bio to shop!",
+      "hashtags": "#smarthome #aesthetic #musthaves #shopnow #trending",
+      "best_time": "12:00 PM or 8:00 PM"
+    },
+    "generated_at": "2026-03-03T08:27:35.781862",
+    "scheduled_for": "2026-03-04T02:27:35.781863"
+  },
+  {
+    "type": "twitter",
+    "product": "Advanced Posture Brace",
+    "content": {
+      "tweet": "Just got this Advanced Posture Brace and I'm obsessed \ud83d\ude2d\n\nLink: [bio]",
+      "thread_potential": true,
+      "best_time": "9:00 AM or 13:00 PM"
+    },
+    "generated_at": "2026-03-03T08:27:35.781874",
+    "scheduled_for": "2026-03-04T05:27:35.781875"
+  }
+]
