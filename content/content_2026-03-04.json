@@ -1,0 +1,36 @@
+[
+  {
+    "type": "twitter",
+    "product": "Posture Corrector Pro",
+    "content": {
+      "tweet": "Things I didn't know I needed:\n1. This Posture Corrector Pro\n2. That's it. That's the list.\n\nLink in bio",
+      "thread_potential": true,
+      "best_time": "9:00 AM or 14:00 PM"
+    },
+    "generated_at": "2026-03-04T08:25:58.072132",
+    "scheduled_for": "2026-03-04T20:25:58.072136"
+  },
+  {
+    "type": "tiktok",
+    "product": "Portable Steamer Device",
+    "content": {
+      "hook": "Why didn't anyone tell me about this Portable Steamer Device sooner??",
+      "caption": "The Portable Steamer Device that broke my TikTok algorithm\n\nLink in bio to get yours!\n\n#fyp #viral #tiktokfinds #amazonfinds #musthaves #trending",
+      "suggested_sound": "trending sound - aesthetic vibes",
+      "best_time": "6:00 PM"
+    },
+    "generated_at": "2026-03-04T08:25:58.072152",
+    "scheduled_for": "2026-03-04T14:25:58.072153"
+  },
+  {
+    "type": "twitter",
+    "product": "LED Strip Lights RGB",
+    "content": {
+      "tweet": "Just got this LED Strip Lights RGB and I'm obsessed \ud83d\ude2d\n\nLink: [bio]",
+      "thread_potential": false,
+      "best_time": "9:00 AM or 12:00 PM"
+    },
+    "generated_at": "2026-03-04T08:25:58.072161",
+    "scheduled_for": "2026-03-05T07:25:58.072162"
+  }
+]
