@@ -70,8 +70,8 @@
       "name": "No-Pull Dog Harness",
       "category": "Pet Supplies",
       "description": "Adjustable, breathable mesh harness. Reflective straps for night walks. All sizes.",
-      "price": 28.73,
-      "originalPrice": 45.97,
+      "price": 30.94,
+      "originalPrice": 49.5,
       "cost": 9.0,
       "margin": 64,
       "discount": 44,
@@ -272,8 +272,8 @@
       "name": "USB Reading Lamp",
       "category": "Smart Home",
       "description": "The viral USB Reading Lamp everyone's talking about on TikTok.",
-      "price": 26.84,
-      "originalPrice": 42.94,
+      "price": 28.22,
+      "originalPrice": 45.15,
       "discount": 52,
       "image": "https://picsum.photos/seed/f3a32994/600/600",
       "rating": 4.6,
@@ -318,8 +318,8 @@
       "name": "USB Reading Lamp",
       "category": "Smart Home",
       "description": "Transform your smart home experience with our USB Reading Lamp.",
-      "price": 20.88,
-      "originalPrice": 33.41,
+      "price": 20.99,
+      "originalPrice": 33.58,
       "discount": 51,
       "image": "https://picsum.photos/seed/f3a32994/600/600",
       "rating": 4.8,
@@ -437,5 +437,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-03-04T08:25:58.071488"
+  "lastUpdated": "2026-03-06T08:24:29.682079"
 }
