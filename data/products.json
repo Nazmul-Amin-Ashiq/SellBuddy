@@ -27,8 +27,8 @@
       "name": "Electric Back Scrubber",
       "category": "Personal Care",
       "description": "Long handle electric body brush. Waterproof, rechargeable, 2 speed settings.",
-      "price": 43.76,
-      "originalPrice": 70.02,
+      "price": 45.25,
+      "originalPrice": 72.4,
       "cost": 18.0,
       "margin": 55,
       "discount": 43,
@@ -136,8 +136,8 @@
       "name": "Posture Corrector Pro",
       "category": "Health & Wellness",
       "description": "Adjustable back brace for better posture. Breathable, invisible under clothes.",
-      "price": 22.95,
-      "originalPrice": 36.72,
+      "price": 23.73,
+      "originalPrice": 37.97,
       "cost": 6.0,
       "margin": 70,
       "discount": 50,
@@ -437,5 +437,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-03-06T08:24:29.682079"
+  "lastUpdated": "2026-03-08T08:18:16.586890"
 }

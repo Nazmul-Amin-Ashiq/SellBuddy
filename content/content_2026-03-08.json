@@ -1,0 +1,36 @@
+[
+  {
+    "type": "tiktok",
+    "product": "Premium Dog Leash",
+    "content": {
+      "hook": "This Premium Dog Leash is going VIRAL for a reason",
+      "caption": "Wait why is nobody talking about this Premium Dog Leash\n\nLink in bio to get yours!\n\n#fyp #viral #tiktokfinds #amazonfinds #musthaves #trending",
+      "suggested_sound": "trending sound - aesthetic vibes",
+      "best_time": "9:00 PM"
+    },
+    "generated_at": "2026-03-08T08:18:16.587496",
+    "scheduled_for": "2026-03-08T13:18:16.587499"
+  },
+  {
+    "type": "instagram",
+    "product": "Photo Projection Necklace",
+    "content": {
+      "caption": "This Photo Projection Necklace > everything else\n\nSave this for later! Link in bio \ud83d\uded2",
+      "hashtags": "#accessories #aesthetic #musthaves #shopnow #trending",
+      "best_time": "13:00 PM or 7:00 PM"
+    },
+    "generated_at": "2026-03-08T08:18:16.587515",
+    "scheduled_for": "2026-03-08T16:18:16.587516"
+  },
+  {
+    "type": "twitter",
+    "product": "No-Pull Dog Harness",
+    "content": {
+      "tweet": "Just got this No-Pull Dog Harness and I'm obsessed \ud83d\ude2d\n\nLink: [bio]",
+      "thread_potential": true,
+      "best_time": "9:00 AM or 13:00 PM"
+    },
+    "generated_at": "2026-03-08T08:18:16.587527",
+    "scheduled_for": "2026-03-08T20:18:16.587528"
+  }
+]
