@@ -48,8 +48,8 @@
       "name": "LED Strip Lights RGB",
       "category": "Smart Home",
       "description": "50ft smart LED strips with app control. Music sync, 16M colors, works with Alexa.",
-      "price": 37.1,
-      "originalPrice": 59.36,
+      "price": 35.71,
+      "originalPrice": 57.14,
       "cost": 8.0,
       "margin": 71,
       "discount": 44,
@@ -158,8 +158,8 @@
       "name": "Sunset Projection Lamp",
       "category": "Smart Home",
       "description": "Instagram-famous sunset lamp. 180 degree rotation, USB powered, multiple colors.",
-      "price": 20.75,
-      "originalPrice": 33.2,
+      "price": 22.56,
+      "originalPrice": 36.1,
       "cost": 7.0,
       "margin": 70,
       "discount": 43,
@@ -460,5 +460,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-03-09T08:31:29.559949"
+  "lastUpdated": "2026-03-10T08:28:22.167896"
 }
