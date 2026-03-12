@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-10T08:28:22.277008",
+  "generated": "2026-03-12T08:29:39.738926",
   "calendar": [
     {
-      "date": "Tuesday, March 10",
+      "date": "Thursday, March 12",
       "day_num": 1,
       "platform": "TikTok",
       "content_type": "TikTok Video",
@@ -12,7 +12,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Wednesday, March 11",
+      "date": "Friday, March 13",
       "day_num": 2,
       "platform": "Instagram",
       "content_type": "Instagram Reel",
@@ -22,7 +22,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Thursday, March 12",
+      "date": "Saturday, March 14",
       "day_num": 3,
       "platform": "TikTok",
       "content_type": "TikTok Video",
@@ -32,7 +32,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Friday, March 13",
+      "date": "Sunday, March 15",
       "day_num": 4,
       "platform": "Twitter/X",
       "content_type": "Twitter Thread",
@@ -42,7 +42,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Saturday, March 14",
+      "date": "Monday, March 16",
       "day_num": 5,
       "platform": "Instagram",
       "content_type": "Instagram Story",
@@ -52,7 +52,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Sunday, March 15",
+      "date": "Tuesday, March 17",
       "day_num": 6,
       "platform": "TikTok",
       "content_type": "TikTok Video",
@@ -62,7 +62,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Monday, March 16",
+      "date": "Wednesday, March 18",
       "day_num": 7,
       "platform": "Reddit",
       "content_type": "Reddit Post",
@@ -72,7 +72,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Tuesday, March 17",
+      "date": "Thursday, March 19",
       "day_num": 8,
       "platform": "TikTok",
       "content_type": "TikTok Video",
@@ -82,7 +82,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Wednesday, March 18",
+      "date": "Friday, March 20",
       "day_num": 9,
       "platform": "Instagram",
       "content_type": "Instagram Reel",
@@ -92,7 +92,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Thursday, March 19",
+      "date": "Saturday, March 21",
       "day_num": 10,
       "platform": "TikTok",
       "content_type": "TikTok Video",
@@ -102,7 +102,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Friday, March 20",
+      "date": "Sunday, March 22",
       "day_num": 11,
       "platform": "Twitter/X",
       "content_type": "Twitter Thread",
@@ -112,7 +112,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Saturday, March 21",
+      "date": "Monday, March 23",
       "day_num": 12,
       "platform": "Instagram",
       "content_type": "Instagram Story",
@@ -122,7 +122,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Sunday, March 22",
+      "date": "Tuesday, March 24",
       "day_num": 13,
       "platform": "TikTok",
       "content_type": "TikTok Video",
@@ -132,7 +132,7 @@
       "status": "Scheduled"
     },
     {
-      "date": "Monday, March 23",
+      "date": "Wednesday, March 25",
       "day_num": 14,
       "platform": "Reddit",
       "content_type": "Reddit Post",
