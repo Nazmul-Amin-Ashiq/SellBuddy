@@ -387,8 +387,8 @@
       "name": "USB Mood Lamp",
       "category": "Smart Home",
       "description": "The viral USB Mood Lamp everyone's talking about on TikTok.",
-      "price": 25.8,
-      "originalPrice": 41.28,
+      "price": 25.02,
+      "originalPrice": 40.03,
       "discount": 53,
       "image": "https://picsum.photos/seed/f00800d1/600/600",
       "rating": 4.6,
@@ -410,8 +410,8 @@
       "name": "Electric Eye Massager",
       "category": "Health & Wellness",
       "description": "Upgrade your life with this amazing Electric Eye Massager.",
-      "price": 47.99,
-      "originalPrice": 76.78,
+      "price": 45.94,
+      "originalPrice": 73.5,
       "discount": 38,
       "image": "https://source.unsplash.com/600x600/?electric+eye+massager",
       "rating": 4.6,
@@ -460,5 +460,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-03-12T08:29:39.638164"
+  "lastUpdated": "2026-03-13T08:27:11.467512"
 }
