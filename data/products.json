@@ -249,8 +249,8 @@
       "name": "Gua Sha Face Roller",
       "category": "Beauty Tools",
       "description": "Upgrade your life with this amazing Gua Sha Face Roller.",
-      "price": 19.84,
-      "originalPrice": 31.74,
+      "price": 20.23,
+      "originalPrice": 32.37,
       "discount": 49,
       "image": "https://picsum.photos/seed/58ef57c0/600/600",
       "rating": 4.6,
@@ -460,5 +460,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-03-15T08:24:29.429514"
+  "lastUpdated": "2026-03-17T08:38:24.011726"
 }
