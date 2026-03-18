@@ -27,8 +27,8 @@
       "name": "Electric Back Scrubber",
       "category": "Personal Care",
       "description": "Long handle electric body brush. Waterproof, rechargeable, 2 speed settings.",
-      "price": 47.05,
-      "originalPrice": 75.28,
+      "price": 49.37,
+      "originalPrice": 78.99,
       "cost": 18.0,
       "margin": 55,
       "discount": 43,
@@ -272,8 +272,8 @@
       "name": "USB Reading Lamp",
       "category": "Smart Home",
       "description": "The viral USB Reading Lamp everyone's talking about on TikTok.",
-      "price": 28.22,
-      "originalPrice": 45.15,
+      "price": 28.99,
+      "originalPrice": 46.38,
       "discount": 52,
       "image": "https://picsum.photos/seed/f3a32994/600/600",
       "rating": 4.6,
@@ -295,8 +295,8 @@
       "name": "Smart Ocean Projector",
       "category": "Smart Home",
       "description": "The viral Smart Ocean Projector everyone's talking about on TikTok.",
-      "price": 39.99,
-      "originalPrice": 63.98,
+      "price": 39.66,
+      "originalPrice": 63.46,
       "discount": 44,
       "image": "https://picsum.photos/seed/eba0be2a/600/600",
       "rating": 4.9,
@@ -460,5 +460,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-03-17T08:38:24.011726"
+  "lastUpdated": "2026-03-18T08:35:15.550101"
 }
