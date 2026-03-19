@@ -158,8 +158,8 @@
       "name": "Sunset Projection Lamp",
       "category": "Smart Home",
       "description": "Instagram-famous sunset lamp. 180 degree rotation, USB powered, multiple colors.",
-      "price": 22.56,
-      "originalPrice": 36.1,
+      "price": 23.53,
+      "originalPrice": 37.65,
       "cost": 7.0,
       "margin": 70,
       "discount": 43,
@@ -295,8 +295,8 @@
       "name": "Smart Ocean Projector",
       "category": "Smart Home",
       "description": "The viral Smart Ocean Projector everyone's talking about on TikTok.",
-      "price": 39.66,
-      "originalPrice": 63.46,
+      "price": 40.58,
+      "originalPrice": 64.93,
       "discount": 44,
       "image": "https://picsum.photos/seed/eba0be2a/600/600",
       "rating": 4.9,
@@ -433,8 +433,8 @@
       "name": "LED Anti-Aging Mask",
       "category": "Beauty Tools",
       "description": "Premium quality LED Anti-Aging Mask at an unbeatable price.",
-      "price": 53.99,
-      "originalPrice": 86.38,
+      "price": 55.38,
+      "originalPrice": 88.61,
       "discount": 42,
       "image": "https://source.unsplash.com/600x600/?led+anti-aging+mask",
       "rating": 4.5,
@@ -460,5 +460,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-03-18T08:35:15.550101"
+  "lastUpdated": "2026-03-19T08:29:30.466630"
 }
