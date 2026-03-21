@@ -364,8 +364,8 @@
       "name": "Pro Posture Corrector",
       "category": "Health & Wellness",
       "description": "Premium quality Pro Posture Corrector at an unbeatable price.",
-      "price": 17.79,
-      "originalPrice": 28.46,
+      "price": 18.06,
+      "originalPrice": 28.9,
       "discount": 50,
       "image": "https://picsum.photos/seed/71e37e0c/600/600",
       "rating": 4.9,
@@ -460,5 +460,5 @@
     "Kitchen",
     "Health & Wellness"
   ],
-  "lastUpdated": "2026-03-20T08:28:35.257029"
+  "lastUpdated": "2026-03-21T08:18:47.686749"
 }
